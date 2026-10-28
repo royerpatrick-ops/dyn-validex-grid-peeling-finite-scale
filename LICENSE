@@ -1,0 +1,10 @@
+# Portée des licences
+
+Copyright © 2026 Patrick Royer.
+
+1. La note expérimentale, les textes documentaires, les figures et les données nouvelles de l'auteur sont diffusés sous la licence Creative Commons Attribution 4.0 International (`CC-BY-4.0`). Voir `licenses/CC-BY-4.0.txt`.
+2. Le code original de Patrick Royer, notamment les scripts de vérification, les adaptateurs portables et les sources Python gelées dont il détient les droits, est diffusé sous la licence MIT. Voir `licenses/MIT.txt`.
+3. Les fichiers historiques et gelés restent identifiés par leurs noms, versions et empreintes. Aucune licence explicite antérieure n'a été retrouvée dans les paquets P06, P07 et P08 ; leur présence ici ne doit pas être présentée comme la découverte d'une licence préexistante. Leur diffusion est effectuée par l'auteur dans le cadre de cette publication et sous la portée MIT ci-dessus, dans la seule mesure des droits qu'il détient.
+4. Les articles, notices et autres œuvres de tiers ne sont pas redistribués. Leurs citations et liens n'altèrent pas leurs licences respectives.
+
+En cas de conflit, la licence ou l'avis propre à un fichier tiers prévaut pour ce fichier.

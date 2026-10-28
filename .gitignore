@@ -1,0 +1,25 @@
+# LaTeX intermediates (the public PDF is stored under output/pdf/)
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.fdb_latexmk
+manuscript/*.fls
+manuscript/*.log
+manuscript/*.out
+manuscript/*.toc
+manuscript/*.synctex.gz
+manuscript/DYN-Note_Experimentale_Grid_Peeling_v0_1.pdf
+
+# Local verification and rendering work
+tmp/
+verification_recomposee.json
+
+# The 210 MB post-collection production archive is a release/Zenodo asset only.
+_prepare_replication_v0_4_20261027.zip
+
+# Python and operating-system artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+Thumbs.db
+.DS_Store

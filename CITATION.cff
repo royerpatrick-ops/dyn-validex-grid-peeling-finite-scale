@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "Merci de citer la prépublication ci-dessous. Le compendium associe des contenus CC BY 4.0 et du code MIT ; voir LICENSE."
+title: "Épluchage de réseau et flots de courbure à taille finie : réplication prospective sur 64 translations appariées"
+type: dataset
+abstract: >-
+  Note expérimentale et compendium de réplication prospective sur 64
+  translations appariées, avec données compactes, code et preuves de contrôle.
+authors:
+  - family-names: Royer
+    given-names: Patrick
+version: "0.1"
+date-released: 2026-10-28
+doi: 10.5281/zenodo.23728565
+url: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale"
+repository-code: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale"
+repository-artifact: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale/releases/tag/v0.1"
+license: CC-BY-4.0
+keywords:
+  - grid peeling
+  - convex layers
+  - affine curve-shortening flow
+  - curvature flow
+  - lattice geometry
+  - finite-size effects
+  - paired translations
+  - numerical replication
+preferred-citation:
+  type: generic
+  authors:
+    - family-names: Royer
+      given-names: Patrick
+  title: "Épluchage de réseau et flots de courbure à taille finie : réplication prospective sur 64 translations appariées"
+  year: 2026
+  version: "0.1"
+  doi: 10.5281/zenodo.23728565
+  url: "https://doi.org/10.5281/zenodo.23728565"

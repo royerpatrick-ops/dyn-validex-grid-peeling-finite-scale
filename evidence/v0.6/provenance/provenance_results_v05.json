@@ -1,0 +1,171 @@
+{
+  "status": "PROVENANCE_AND_SAVED_STREAM_REPLAY_CONSISTENT",
+  "checks": {
+    "frozen_digest_matches_preapproved": true,
+    "state_complete": true,
+    "state_frozen_manifest_anchor": true,
+    "state_translation_anchor": true,
+    "state_seed_anchor": true,
+    "state_completion_anchor": true,
+    "seed_input_and_stored_same_value": true,
+    "seed_format_ok": true,
+    "seed_receipt_hash_match": true,
+    "auth_payloads_match": true,
+    "blacklist_48_unique": true,
+    "64_unique_ordered_rows": true,
+    "no_historical_48_overlap": true,
+    "no_old16_overlap": true,
+    "prng_replay_matches_exact_order": true,
+    "prng_candidate_count_matches": true,
+    "execution_lists_same_rows": true,
+    "execution_frozen_files_unchanged": true,
+    "64_main_artifacts_present": true,
+    "eight_quickhull_checks_pass": true,
+    "costs_have_64_rows_8_second": true,
+    "run_wall_below_project_upper_forecast": true,
+    "campaign_plus_analysis_storage_below_upper_forecast": true,
+    "all_available_records_hash_match": true,
+    "preapproved_static_package_identical": true
+  },
+  "frozen_records": {
+    "matched_count": 24,
+    "mismatches": [],
+    "unavailable": [
+      "_audit_codex_pi_morphodynamique_20261027/working_copies/P06/DYN-Transfert_NonElliptique_Horloge-Gelee_v0_1/support_shape_engine.py",
+      "_audit_codex_pi_morphodynamique_20261027/working_copies/P07/DYN-Comparaison_Contraction-Identique_v0_1/baseline/polygon_fourier.py",
+      "_audit_codex_pi_morphodynamique_20261027/working_copies/P07/DYN-Comparaison_Contraction-Identique_v0_1/targeted_supports.npz",
+      "_audit_codex_pi_morphodynamique_20261027/working_copies/P08/DYN-Extension_Contraction-Identique_R512_v0_1/extension_supports.npz"
+    ]
+  },
+  "delivery_records": {
+    "matched_count": 95,
+    "mismatches": [],
+    "unavailable": [
+      "_create_replication_controls_v05.py",
+      "DYN-Avis_Lancement_et_Controles_v0_5.zip"
+    ]
+  },
+  "campaign_records": {
+    "matched_count": 77,
+    "mismatches": [],
+    "unavailable": []
+  },
+  "execution_artifact_records": {
+    "matched_count": 20,
+    "mismatches": [],
+    "unavailable": [
+      "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\DYN-Avis_Lancement_et_Controles_v0_5.zip",
+      "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_create_replication_controls_v05.py"
+    ]
+  },
+  "analysis_artifacts": {
+    "matched_count": 2,
+    "mismatches": [],
+    "unavailable": []
+  },
+  "prior_package_comparison": {
+    "frozen_manifest_byte_identical": true,
+    "frozen_files_byte_identical": true,
+    "prior_state_hash_matches_pre_draw_receipt": true,
+    "files_compared": 24
+  },
+  "saved_stream_replay": {
+    "candidate_calls": 64,
+    "historical_overlap": 0,
+    "old16_overlap": 0,
+    "numpy_audit_version": "2.3.5",
+    "new_draw_or_collection": false
+  },
+  "quickhull_reports": [
+    {
+      "row": 0,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 8,
+      "layers_compared": 3857,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 16,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 24,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 32,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 40,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 48,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    },
+    {
+      "row": 56,
+      "layers_compared": 3858,
+      "status_ok": true,
+      "exact_checks": true,
+      "digests_equal": true,
+      "minimum_containment_cross": 0
+    }
+  ],
+  "costs": {
+    "run_wall_seconds": 1216.3996451999992,
+    "main_wall_sum": 829.6492483000038,
+    "second_wall_sum": 376.33769739999116,
+    "run_residual_wall": 10.412699500004237,
+    "main_cpu_sum": 826.15625,
+    "second_cpu_sum": 375.03125,
+    "campaign_bytes": 207922004,
+    "analysis_bytes": 486317,
+    "upper_project_wall_forecast": 1839.8684012999547,
+    "upper_storage_forecast": 259226302.5,
+    "production_peak_memory": null
+  },
+  "prospective_documentary_times": {
+    "freeze_created_utc": "2026-10-27T18:10:01.053179+00:00",
+    "control_created_utc": "2026-10-27T18:34:06.527504+00:00",
+    "execution_manifest_created_utc": "2026-10-27T19:00:12.224065+00:00"
+  },
+  "limits": [
+    "Four original-workspace frozen dependencies are not included, so their hashes remain reported rather than reverified here.",
+    "Local receipts, state and hashes support a single prospective execution; they are not an external timestamp or a forensic proof that no unrecorded trial ever existed.",
+    "QuickHull JSON reports are verified as delivered and anchored; no hull or peeling engine is rerun.",
+    "No scientific outcome is recomputed by this script; no new seed, DRAW, RUN, oracle or ANALYZE occurs.",
+    "Production peak memory is not serialized and cannot be certified after exit."
+  ],
+  "script_sha256": "eda56e762c0c5fec7504ad1fb60ceca13e8797bb86b46749054720e5bce7901e"
+}

@@ -1,0 +1,149 @@
+{
+  "date_of_check": "2026-10-28",
+  "status": "EXISTING_PDF_VISUALLY_INSPECTED_NO_LAYOUT_DEFECT_IDENTIFIED",
+  "pdf_path": "/workspace/scratch/cbad571848ca/output/replication_confirmee_v0_6/DYN-Fiche_Replication_Prospective_64_v0_6.pdf",
+  "pdf_sha256": "6249de781857c9a97bb181faee9f21d52d66191d47025a4a775c0748de871084",
+  "pdf_bytes": 142621,
+  "pdf_pages": 3,
+  "format": "A4 portrait, PDF1.4, non-encrypted",
+  "work_performed": [
+    "pdfinfo metadata and page geometry",
+    "pdftotext full text extraction",
+    "pdffonts embedding and Unicode-map inventory",
+    "pdfimages image-resolution inventory",
+    "Poppler110dpi rendering of all3pages",
+    "visual inspection of all3page PNGs",
+    "PyMuPDF text bounding boxes and font usage; PNG integrity check"
+  ],
+  "fonts_used_in_text_spans": [
+    "DejaVuSans",
+    "DejaVuSans-Bold"
+  ],
+  "fonts_inventory": [
+    {
+      "name": "Helvetica",
+      "type": "Type1",
+      "embedded": false,
+      "subset": false,
+      "unicode_map": false,
+      "visible_text_span_usage_observed": false
+    },
+    {
+      "name": "AAAAAA+DejaVuSans",
+      "type": "TrueType",
+      "embedded": true,
+      "subset": true,
+      "unicode_map": true,
+      "visible_text_span_usage_observed": true
+    },
+    {
+      "name": "AAAAAA+DejaVuSans-Bold",
+      "type": "TrueType",
+      "embedded": true,
+      "subset": true,
+      "unicode_map": true,
+      "visible_text_span_usage_observed": true
+    }
+  ],
+  "pdffonts_raw": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nHelvetica                            Type 1            WinAnsi          no  no  no       2  0\nAAAAAA+DejaVuSans                    TrueType          WinAnsi          yes yes yes     11  0\nAAAAAA+DejaVuSans-Bold               TrueType          WinAnsi          yes yes yes     15  0\n",
+  "figure_page2": {
+    "pixels": [
+      1620,
+      560
+    ],
+    "effective_resolution_ppi": [
+      229,
+      229
+    ],
+    "visual_result": "READABLE_AT_CURRENT_LAYOUT"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "size_points": [
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "render_filename": "fiche-1.png",
+      "render_sha256": "106478ee071d54597768c0e1bf70e592c0f7b3674d91c425ab9fc7fcee51438d",
+      "render_resolution_dpi": 110,
+      "render_integrity": "PNG_VERIFIED",
+      "body_text_bbox_points": [
+        49.0,
+        56.044921875,
+        546.2957153320312,
+        741.9822387695312
+      ],
+      "replacement_character_count_in_extracted_text": 0,
+      "link_annotation_count": 0,
+      "actually_visually_inspected": true,
+      "visual_observation": "Titre, blocs de texte et tableau primaire lisibles. Tableau entier sur la page, sans superposition, texte coupé ni glyphe manquant visible. En-tête/pied de page et numéro 1 distincts du contenu."
+    },
+    {
+      "page": 2,
+      "size_points": [
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "render_filename": "fiche-2.png",
+      "render_sha256": "9f794c92d13224e3f771aac3fc24324a767f4f9d142d9775b8292e8ec62776e0",
+      "render_resolution_dpi": 110,
+      "render_integrity": "PNG_VERIFIED",
+      "body_text_bbox_points": [
+        49.0,
+        54.0029296875,
+        546.33056640625,
+        582.482177734375
+      ],
+      "replacement_character_count_in_extracted_text": 0,
+      "link_annotation_count": 0,
+      "actually_visually_inspected": true,
+      "visual_observation": "Tableau secondaire et figure à deux panneaux lisibles. Axes, valeurs annotées, barre de couleur et légende non coupés. Aucun chevauchement identifié entre figure, caption et texte. Le pied de page est distinct du contenu."
+    },
+    {
+      "page": 3,
+      "size_points": [
+        595.2755737304688,
+        841.8897705078125
+      ],
+      "render_filename": "fiche-3.png",
+      "render_sha256": "49e0bc01cf6bd9341c85e83117344e09d30d5dd6caeb68b1b6140a7fec18de24",
+      "render_resolution_dpi": 110,
+      "render_integrity": "PNG_VERIFIED",
+      "body_text_bbox_points": [
+        49.0,
+        54.0029296875,
+        546.011474609375,
+        726.1822509765625
+      ],
+      "replacement_character_count_in_extracted_text": 0,
+      "link_annotation_count": 0,
+      "actually_visually_inspected": true,
+      "visual_observation": "Texte, titres et sources lisibles. Les dernières références restent au-dessus de la zone du pied de page, sans superposition. Aucun caractère manquant ou texte tronqué visible."
+    }
+  ],
+  "nonblocking_notes": [
+    "URLs are printed as text: no hyperlink annotations were observed in this PDF.",
+    "Helvetica is an unembedded resource, but no text spans using it were observed. All observed text uses embedded DejaVu subsets.",
+    "No proof of PDF/A compliance, accessibility tagging or universal viewer behavior is claimed."
+  ],
+  "scope_limits": [
+    "The PDF was not edited or regenerated.",
+    "This is a presentation/structure check of the existing v0.6PDF, not a new scientific validation.",
+    "This result must not be assigned to a future manuscript/PDF created by Codex. That final artifact requires a fresh full render-and-inspect QA, then a download-and-reopen check from the actual published URL."
+  ],
+  "publication_QA_required": [
+    "Generate final PDF using fonts with needed glyphs embedded and searchable text.",
+    "Render every page of the final PDF, inspect every page, check scientific tables/formulas/captions and no overlap/truncation/missing glyphs.",
+    "Keep final PDF hash, page count and filename in the publication manifest.",
+    "After publication, download the PDF from the final public URL, verify identity or documented signing differences, reopen it, recheck page count/text/fonts and visual rendering before declaring publication verified."
+  ],
+  "page_frame_horizontal_margins_points": [
+    43,
+    43
+  ],
+  "observed_body_text_horizontal_margins_points_approx": [
+    49,
+    49
+  ]
+}

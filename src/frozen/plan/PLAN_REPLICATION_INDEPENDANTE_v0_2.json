@@ -1,0 +1,209 @@
+{
+  "schema_version": "1.1",
+  "plan_version": "0.2",
+  "basis_review": "DYN-VALIDEX v0.4, 2026-10-27",
+  "status": "PREPARED_HISTORICAL_COST_PILOT_EXECUTED_NO_NEW_COLLECTION",
+  "execution_flags": {
+    "historical_cost_pilot_executed": true,
+    "historical_peeling_replay_executed": true,
+    "new_translation_draw": false,
+    "master_seed_created": false,
+    "new_scientific_peeling_collection": false,
+    "new_scientific_collection": false,
+    "confirmatory_analysis": false,
+    "publication": false,
+    "v03_sources_modified": false
+  },
+  "scope": {
+    "claim": "finite-scale paired comparison only",
+    "not_claimed": [
+      "beta=0.32 is an exact law",
+      "continuous optimum in beta",
+      "uniformity over angle or contraction",
+      "proof or refutation of an affine asymptotic limit",
+      "H_rot",
+      "mode-4 transition",
+      "clock identification"
+    ]
+  },
+  "design": {
+    "n_complete_translation_rows": 64,
+    "statistical_unit": "whole translation row; all radii, orientations, q and beta cells paired",
+    "radii": [256, 512],
+    "primary_radius": 512,
+    "orientations": [
+      {"id": "theta0", "radians": 0.0, "definition": "0"},
+      {"id": "atan_1_8", "radians": 0.12435499454676144, "definition": "atan2(1,8)"},
+      {"id": "pi_over_4", "radians": 0.7853981633974483, "definition": "pi/4"}
+    ],
+    "historical_q": [0.95, 0.90, 0.85],
+    "beta_grid": [
+      {"label": "0.30", "value": 0.30},
+      {"label": "0.31", "value": 0.31},
+      {"label": "0.32", "value": 0.32},
+      {"label": "1/3", "value": 0.3333333333333333, "rational": [1, 3]},
+      {"label": "0.34", "value": 0.34},
+      {"label": "0.35", "value": 0.35},
+      {"label": "0.36", "value": 0.36}
+    ],
+    "absolute_q_formula": "q_abs=q_hist*P_polygon_initial/(2*pi*R)",
+    "fourier_convention": "c_m=(1/(2*pi))*integral h(phi)*exp(-i*m*phi)dphi; a_m=c_m/c_0",
+    "shape_frame": "a_m_shape=a_m_global*exp(i*m*theta); no fitted phase",
+    "peeling_contract": "remove extreme hull vertices only; retain collinear non-vertices"
+  },
+  "primary": {
+    "cell_contrast": "d=|a3_peel-a3_ref(beta=1/3)|^2-|a3_peel-a3_ref(beta=0.32)|^2",
+    "row_score": "W_j=equal-weight mean over 3 orientations and 3 q of (d-B), at R=512",
+    "decision_rule": "mean(W)-t_(0.975,63)*sd(W)/sqrt(64)>0",
+    "tail": "one-sided",
+    "nominal_level": 0.975,
+    "coverage": "approximate",
+    "sensitivity_B": "empirical, not a certified enclosure",
+    "failure_results": {
+      "complete_but_lcb_nonpositive": "NON_DISCRIMINE",
+      "fewer_than_64_complete_rows": "REPLICATION_INCOMPLETE",
+      "geometry_or_reference_failure": "NO_PRIMARY_DECISION"
+    }
+  },
+  "sensitivity": {
+    "formula": "B=2*eps_interp*|r13-r032| + 2*|p-r13|*eps_ref13+eps_ref13^2 + 2*|p-r032|*eps_ref032+eps_ref032^2 + 2*eps_interp*(eps_ref13+eps_ref032)",
+    "common_target_perturbation_cancellation": true,
+    "mixed_term_included": true,
+    "interval_certified": false
+  },
+  "predeclared_secondary": [
+    "paired D_R512-D_R256",
+    "contrasts by orientation",
+    "contrasts by q",
+    "dedicated pi/4 and q=0.95 cell",
+    "all seven beta losses by R, orientation and q"
+  ],
+  "oracle": {
+    "status": "QUALIFIED_1025_NODE_GRID_PREPARED_NOT_FROZEN",
+    "qualification_artifact": "pilot/reference_qualification_v04.json",
+    "qualification_sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4",
+    "q_abs_domain": [0.75, 1.0],
+    "domain_justification": "h0>=0.925; grid hull contains disk radius 0.925-sqrt(2)/R; for R>=256, q_abs>=0.85*(0.925-sqrt(2)/256)>0.78 and q_abs<=0.95",
+    "freeze": [
+      "formulations",
+      "solver implementations and versions",
+      "parameters and tolerances",
+      "space and time refinements",
+      "qualification tests",
+      "domain and interpolation",
+      "mechanical evaluation rule"
+    ],
+    "requirements": [
+      "radius-of-curvature primary formulation",
+      "genuinely distinct second formulation",
+      "separate spatial and temporal refinements",
+      "positive rho",
+      "disk controls for every beta",
+      "ellipse control for beta=1/3",
+      "max empirical a3 method/refinement difference <=3e-9 over q_abs in [0.75,1]"
+    ],
+    "future_q_evaluation": "mechanical evaluation of frozen oracle at q_abs determined by new initial hulls; fully logged; no phase, speed or exponent refit",
+    "error_status": "empirical_not_interval_certified",
+    "qualification_failure": "do not launch collection"
+  },
+  "randomization": {
+    "denominator": 1048576,
+    "space": "integer pairs in {0,...,1048575}^2",
+    "selection": "uniform without replacement by sequential rejection of blacklist and duplicates",
+    "single_master_seed": null,
+    "seed_count_at_future_launch": 1,
+    "seed_timing": "after protocol/code/oracle/manifest freeze and before any new evaluation",
+    "master_seed_format": "exactly 64 lowercase hexadecimal characters [0-9a-f], representing 256 unsigned bits in big-endian order",
+    "seed_source": "recorded launch procedure; public beacon not required",
+    "generator": "numpy.random.PCG64",
+    "generator_version": "exact NumPy version frozen in the environment manifest before launch",
+    "master_stream_initialization": "PCG64(integer value of the 256-bit big-endian master-seed hex string)",
+    "draw_call": "Generator(PCG64(master_seed_int)).integers(0, 2**20, size=2, dtype=numpy.uint64), called sequentially",
+    "rejection_rule": "reject candidate if in the exact historical blacklist or already accepted; continue sequential calls until 64 acceptances",
+    "accepted_order": "acceptance order is the frozen row order; never sort or permute it",
+    "auxiliary_randomness": "digest=SHA-256(bytes.fromhex(master_seed_hex) || 0x00 || domain_ascii || 0x00 || bytes.fromhex(frozen_manifest_sha256)); initialize PCG64(int.from_bytes(digest,'big')); domain labels are distinct recorded ASCII strings and no independently supplied seed is allowed",
+    "generated_in_this_pass": false,
+    "historical_blacklist_count": 48,
+    "historical_sets_intersection_count": 0,
+    "pairing_key": "exact tx,ty,denominator and provenance; never row number alone",
+    "blacklist": {
+      "P05": [
+        [173312,16810],[567575,177339],[114357,686318],[765275,22703],
+        [68962,587593],[113853,65158],[873351,711829],[84382,660966],
+        [651304,191517],[474018,207896],[284145,587155],[730730,854319],
+        [307836,595451],[769931,322040],[164363,716073],[973088,196517],
+        [268500,944594],[343216,1040373],[75597,272046],[674853,928572],
+        [220454,795442],[23561,407360],[480969,311134],[31853,621806],
+        [1047625,859299],[878815,67272],[343705,35275],[680309,644257],
+        [35382,75676],[287402,1039179],[675214,322702],[544425,235008]
+      ],
+      "P06_P19": [
+        [799351,488675],[60055,642819],[217462,206163],[269749,497785],
+        [677689,1026970],[102836,264720],[82644,948654],[362350,686064],
+        [829256,185939],[516021,341586],[1008730,87948],[899307,100194],
+        [314710,23633],[292223,804731],[714207,219691],[196058,412174]
+      ]
+    }
+  },
+  "historical_cost_pilot": {
+    "status": "COMPLETED_HISTORICAL_ONLY_EXCLUDED_FROM_SCIENTIFIC_ANALYSIS",
+    "summary_artifact": "pilot/historical_cost_pilot_v04.json",
+    "summary_sha256": "2763f4cf43776edcd6926fd0a1e372776d59971dac3799704435eeaad70c518e",
+    "budget_artifact": "pilot/cost_budget_v04.json",
+    "historical_peeling_replay_executed": true,
+    "new_scientific_collection_executed": false,
+    "new_translation_draw_executed": false,
+    "confirmatory_analysis_executed": false,
+    "coordinates": [[799351,488675],[60055,642819]],
+    "denominator": 1048576,
+    "radii": [256,512],
+    "orientations": ["theta0","atan_1_8","pi_over_4"],
+    "excluded_from_new_analysis": true,
+    "measurements": ["wall_time","cpu_time","peak_memory","storage_bytes"],
+    "components_measured_separately": [
+      "complete main engine per row",
+      "second engine in actual planned regime",
+      "continuous references and qualification"
+    ],
+    "campaign_budget_formula": "64*main_engine_complete_row + 8*second_engine_planned_row + continuous_references",
+    "storage_budget_formula": "64*main_engine_row_storage + 8*second_engine_row_storage + reference_storage",
+    "jarvis_rule": "if exhaustive Jarvis is prohibitive, report measured diagnosis and propose an exact faster independent control or bounded geometric subplan before any seed or draw",
+    "cost_failure": "prepare a new quantified prospective version before any draw; do not choose n after viewing new losses"
+  },
+  "second_geometry_engine": {
+    "planned_new_row_positions_zero_based": [0,8,16,24,32,40,48,56],
+    "row_count": 8,
+    "scope": "all layers through q=0.85 at R=256 and 512 and all three orientations",
+    "requirements": [
+      "independent hull/layer implementation",
+      "same exact remaining-point counts",
+      "same exact extreme-vertex sets up to cycle/reversal",
+      "same adjacent target layers and nesting",
+      "same Minkowski weights and coefficients within frozen floating tolerance"
+    ],
+    "divergence_rule": "block analysis; never delete the divergent row"
+  },
+  "integrity": {
+    "blind_geometry_correction": "keep identical coordinates, exclude no row, hash corrected code, and recompute every dependent result before contrast analysis",
+    "no_efficacy_or_futility_stopping": true,
+    "technical_retry": "same coordinate only",
+    "incomplete_campaign": "do not reinterpret as reduced-n design"
+  },
+  "documentary_corrections": [
+    "P05 is another sample from the same dyadic law as P06-P19, not a different law.",
+    "Only three trajectories have nine eligible cells after exclusion; the other thirteen trajectories in the affected historical group retain ten."
+  ],
+  "provenance": {
+    "source_sha256": {
+      "DYN_Bilan_Corrections_Finies_v0_4_pdf_root": "b00d378ba0abcde27ea9435448879afdfc925207e810b291d5151a037554040f",
+      "DYN_Bilan_et_Controles_Corrections_Finies_v0_4_zip": "90101921cd5fb1bb49b265b6286e5a21b72c053453c02007a87b5793f8cf3de9",
+      "DYN_Prompt_Codex_Pilote_Replication_v0_4_txt": "d72a123b0222e7d309a385643d2207860254cf443a4030c21827e322fe9d60e7",
+      "v03_plan_md": "a98d8523cd60ca728017a83ee42ea6a55cedab113eb0c740f7a8b621c19dedb2",
+      "v03_plan_json": "befdfeacc103f6e26065226119f539185b064ce57439a59a311ee3773342fbd3",
+      "P05_draws_csv": "06811464367ebbeeeaffc656b0fe2ce2018315e73ab7eaf493c7677f8d321b60",
+      "P06_draws_csv": "558a88a1249d288110f7467b9c548af56234ec958eeecab38bbaa3a46aed42cc"
+    },
+    "v03_sources_preserved": true,
+    "automatic_publication": false
+  }
+}

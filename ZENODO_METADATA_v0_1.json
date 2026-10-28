@@ -1,0 +1,29 @@
+{
+  "title": "Épluchage de réseau et flots de courbure à taille finie : réplication prospective sur 64 translations appariées",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Note expérimentale à taille finie sur l’épluchage d’une forme convexe à symétrie ternaire, comparé à des flots de courbure à périmètre égal. Le comparateur beta=0,32 a été sélectionné pendant une phase exploratoire, puis le critère gelé a été testé face à 1/3 sur 64 nouvelles translations appariées. À R=512, le contraste moyen préspecifié après soustraction d’une sensibilité empirique favorise 0,32 ; le classement dépend toutefois du rayon, de l’orientation et de la contraction. La couverture statistique est nominale, les budgets numériques ne sont pas des encadrements certifiés et aucun exposant exact ni résultat asymptotique n’est revendiqué. Note, figures et données : CC BY 4.0. Code original : licence MIT. Voir le fichier LICENSE pour la portée par type de contenu.",
+  "creators": [
+    {"name": "Royer, Patrick"}
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "fra",
+  "version": "0.1",
+  "publication_date": "2026-10-28",
+  "keywords": [
+    "grid peeling",
+    "convex layers",
+    "affine curve-shortening flow",
+    "curvature flow",
+    "lattice geometry",
+    "finite-size effects",
+    "paired translations",
+    "numerical replication",
+    "support function",
+    "Fourier coefficients"
+  ],
+  "related_identifiers": [
+    {"identifier": "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale/releases/tag/v0.1", "relation": "isSupplementedBy", "scheme": "url"}
+  ]
+}

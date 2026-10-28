@@ -1,0 +1,553 @@
+{
+  "version": "0.6",
+  "date": "2026-10-27",
+  "global_PASS": false,
+  "primary_result": {
+    "n_independent_translation_rows": 64,
+    "row_score": "equal mean over 3 orientations x 3 q at R=512 of d-B",
+    "mean_W": 1.1220297693466865e-07,
+    "sd_W_ddof1": 8.155211960337087e-09,
+    "student_t_quantile_0_975_df63": 1.998340542520741,
+    "lower_confidence_bound_nominal": 1.101658655980197e-07,
+    "decision_rule": "LCB>0",
+    "coverage_label": "nominal approximate Student bound",
+    "sensitivity_label": "B uses empirical qualification-grid maxima, not certified enclosures",
+    "uniformity_label": "a positive mean result does not imply uniformity over angle or contraction",
+    "row_scores_with_exact_identity": [
+      {
+        "row_index": 0,
+        "tx": 313451,
+        "ty": 82804,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0493824128824024e-07
+      },
+      {
+        "row_index": 1,
+        "tx": 969440,
+        "ty": 228067,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1280886382570419e-07
+      },
+      {
+        "row_index": 2,
+        "tx": 12418,
+        "ty": 443594,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0982322424285576e-07
+      },
+      {
+        "row_index": 3,
+        "tx": 507498,
+        "ty": 28152,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0281116831994366e-07
+      },
+      {
+        "row_index": 4,
+        "tx": 438275,
+        "ty": 908524,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.3400675288730096e-07
+      },
+      {
+        "row_index": 5,
+        "tx": 121754,
+        "ty": 195127,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.073620859607332e-07
+      },
+      {
+        "row_index": 6,
+        "tx": 702263,
+        "ty": 237461,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1099504394403616e-07
+      },
+      {
+        "row_index": 7,
+        "tx": 218296,
+        "ty": 479981,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0864083962060819e-07
+      },
+      {
+        "row_index": 8,
+        "tx": 50088,
+        "ty": 228150,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0609471501346908e-07
+      },
+      {
+        "row_index": 9,
+        "tx": 194839,
+        "ty": 263822,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0949697802033564e-07
+      },
+      {
+        "row_index": 10,
+        "tx": 679822,
+        "ty": 139124,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1126918706301538e-07
+      },
+      {
+        "row_index": 11,
+        "tx": 697450,
+        "ty": 355274,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2661640354762054e-07
+      },
+      {
+        "row_index": 12,
+        "tx": 771050,
+        "ty": 430018,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.084107458358595e-07
+      },
+      {
+        "row_index": 13,
+        "tx": 996314,
+        "ty": 830905,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0735326360817172e-07
+      },
+      {
+        "row_index": 14,
+        "tx": 771332,
+        "ty": 814187,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.245588896907584e-07
+      },
+      {
+        "row_index": 15,
+        "tx": 582113,
+        "ty": 345824,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.154049973759813e-07
+      },
+      {
+        "row_index": 16,
+        "tx": 1028754,
+        "ty": 20064,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0671866903677997e-07
+      },
+      {
+        "row_index": 17,
+        "tx": 931010,
+        "ty": 1002413,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0805219970213786e-07
+      },
+      {
+        "row_index": 18,
+        "tx": 189027,
+        "ty": 34417,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0724818110341698e-07
+      },
+      {
+        "row_index": 19,
+        "tx": 87545,
+        "ty": 470586,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 9.831548896025682e-08
+      },
+      {
+        "row_index": 20,
+        "tx": 135118,
+        "ty": 704590,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.3017091503670643e-07
+      },
+      {
+        "row_index": 21,
+        "tx": 904346,
+        "ty": 34487,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.108483342952884e-07
+      },
+      {
+        "row_index": 22,
+        "tx": 265829,
+        "ty": 512291,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0760730891449025e-07
+      },
+      {
+        "row_index": 23,
+        "tx": 379933,
+        "ty": 945461,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.147908552421663e-07
+      },
+      {
+        "row_index": 24,
+        "tx": 858982,
+        "ty": 1041225,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1048509509873242e-07
+      },
+      {
+        "row_index": 25,
+        "tx": 223254,
+        "ty": 201154,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0938597463016568e-07
+      },
+      {
+        "row_index": 26,
+        "tx": 97239,
+        "ty": 664165,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.285849852667777e-07
+      },
+      {
+        "row_index": 27,
+        "tx": 917433,
+        "ty": 837664,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2042129618083413e-07
+      },
+      {
+        "row_index": 28,
+        "tx": 631308,
+        "ty": 846900,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2195168253434604e-07
+      },
+      {
+        "row_index": 29,
+        "tx": 241075,
+        "ty": 33128,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0493541049268318e-07
+      },
+      {
+        "row_index": 30,
+        "tx": 35450,
+        "ty": 757928,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1699722406678346e-07
+      },
+      {
+        "row_index": 31,
+        "tx": 245519,
+        "ty": 423844,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1742683182375898e-07
+      },
+      {
+        "row_index": 32,
+        "tx": 385916,
+        "ty": 568673,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0615387417824428e-07
+      },
+      {
+        "row_index": 33,
+        "tx": 35428,
+        "ty": 991572,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0268066650496385e-07
+      },
+      {
+        "row_index": 34,
+        "tx": 22483,
+        "ty": 85878,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0784442821450295e-07
+      },
+      {
+        "row_index": 35,
+        "tx": 707878,
+        "ty": 630722,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1896582403947919e-07
+      },
+      {
+        "row_index": 36,
+        "tx": 489568,
+        "ty": 274493,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1685896300893123e-07
+      },
+      {
+        "row_index": 37,
+        "tx": 450322,
+        "ty": 540454,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.094803875530164e-07
+      },
+      {
+        "row_index": 38,
+        "tx": 356892,
+        "ty": 360272,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2105265630696293e-07
+      },
+      {
+        "row_index": 39,
+        "tx": 786801,
+        "ty": 884288,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1913455507857927e-07
+      },
+      {
+        "row_index": 40,
+        "tx": 720871,
+        "ty": 44207,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0301850014864188e-07
+      },
+      {
+        "row_index": 41,
+        "tx": 622374,
+        "ty": 1033736,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1212166246891898e-07
+      },
+      {
+        "row_index": 42,
+        "tx": 649117,
+        "ty": 684003,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2546399479176764e-07
+      },
+      {
+        "row_index": 43,
+        "tx": 691552,
+        "ty": 658455,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1700848851506065e-07
+      },
+      {
+        "row_index": 44,
+        "tx": 380068,
+        "ty": 883890,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2603114096217517e-07
+      },
+      {
+        "row_index": 45,
+        "tx": 687169,
+        "ty": 784859,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1300117522569429e-07
+      },
+      {
+        "row_index": 46,
+        "tx": 106683,
+        "ty": 436518,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.113400681704711e-07
+      },
+      {
+        "row_index": 47,
+        "tx": 608884,
+        "ty": 786443,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1887374804584962e-07
+      },
+      {
+        "row_index": 48,
+        "tx": 164477,
+        "ty": 356733,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 9.670904356726708e-08
+      },
+      {
+        "row_index": 49,
+        "tx": 536594,
+        "ty": 18028,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0745510436758454e-07
+      },
+      {
+        "row_index": 50,
+        "tx": 964480,
+        "ty": 910266,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.127512517006754e-07
+      },
+      {
+        "row_index": 51,
+        "tx": 837429,
+        "ty": 226506,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1503503043975795e-07
+      },
+      {
+        "row_index": 52,
+        "tx": 624046,
+        "ty": 16596,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1207838898245219e-07
+      },
+      {
+        "row_index": 53,
+        "tx": 48981,
+        "ty": 925517,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1494910345609996e-07
+      },
+      {
+        "row_index": 54,
+        "tx": 161816,
+        "ty": 765178,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0844360378130595e-07
+      },
+      {
+        "row_index": 55,
+        "tx": 713110,
+        "ty": 982370,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0582026443801103e-07
+      },
+      {
+        "row_index": 56,
+        "tx": 582574,
+        "ty": 916018,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0906936344847262e-07
+      },
+      {
+        "row_index": 57,
+        "tx": 327664,
+        "ty": 123768,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 9.661456704668307e-08
+      },
+      {
+        "row_index": 58,
+        "tx": 95378,
+        "ty": 2490,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.011396753925766e-07
+      },
+      {
+        "row_index": 59,
+        "tx": 70875,
+        "ty": 950295,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1427293365541055e-07
+      },
+      {
+        "row_index": 60,
+        "tx": 948725,
+        "ty": 772997,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0310960735423857e-07
+      },
+      {
+        "row_index": 61,
+        "tx": 9379,
+        "ty": 191928,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.1464858957051073e-07
+      },
+      {
+        "row_index": 62,
+        "tx": 704667,
+        "ty": 291565,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.2371000199440487e-07
+      },
+      {
+        "row_index": 63,
+        "tx": 692291,
+        "ty": 18656,
+        "denominator": 1048576,
+        "provenance": "replication_v04_new_draw",
+        "W": 1.0162200878012493e-07
+      }
+    ]
+  },
+  "decision": "FINITE_R512_PREFERENCE_0_32",
+  "frozen_manifest_sha256": "023b69c57501ed27ccba892b0e2c2afee88fa1621f711d6c057e3dc0a58f2518",
+  "independent_local_recomputation": "primary matched; all1152interpolated a3 recomposed from64rawNPZ",
+  "novelty_status": "not an exhaustive novelty review",
+  "next_step": "standalone experimental note and specialized human review; no automatic new campaign",
+  "scope": "finite mean preference atR512 for prescribed body,3angles,3contractions,dyadic translations and a3 loss",
+  "limits": [
+    "nominal approximate Student coverage",
+    "empirical numerical sensitivities, not interval certified",
+    "no exact beta, angular uniformity or asymptotic result",
+    "old16exploratory units not pooled with64new translations"
+  ],
+  "sources": [
+    {
+      "name": "_prepare_replication_v0_4_20261027.zip",
+      "sha256": "f225c317be686798471e52a2f34e2bbc2fdf22406654702aeebf197797764dc3"
+    },
+    {
+      "name": "_execute_replication_v0_5_20261027.zip",
+      "sha256": "a883fcd2776a4f3b70e0992a5312c4a2a49cf4860dfa483f35539c50e0c32378"
+    }
+  ]
+}

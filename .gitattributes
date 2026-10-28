@@ -1,0 +1,15 @@
+* text=auto eol=lf
+
+# Preserve frozen and evidence bytes exactly as supplied.
+data/** -text
+src/frozen/** -text
+src/recovered_dependencies/** -text
+evidence/** -text
+
+# Binary artefacts.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.npz binary
+*.zip binary

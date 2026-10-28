@@ -1,0 +1,28 @@
+{
+  "state_machine": [
+    "PREPARE",
+    "FREEZE",
+    "DRAW",
+    "RUN",
+    "ANALYZE"
+  ],
+  "last_completed_action": "ANALYZE",
+  "next_action": "COMPLETE",
+  "checks": {
+    "status": "PREPARE_CHECKS_PASS",
+    "protocol_sha256": "2cba28de3f546342e5eb091774066f8fe74877126e50d4e933e7c09683a8d575",
+    "qualification_sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4",
+    "pilot_sha256": "2763f4cf43776edcd6926fd0a1e372776d59971dac3799704435eeaad70c518e",
+    "next_action": "FREEZE",
+    "no_seed_or_translation_list": true,
+    "no_new_campaign": true
+  },
+  "frozen_manifest_sha256": "023b69c57501ed27ccba892b0e2c2afee88fa1621f711d6c057e3dc0a58f2518",
+  "translation_manifest_path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\translations_v04.json",
+  "translation_manifest_sha256": "e9e215142a265e98529725efb6877580ed327d74911e156e39685ca87de45e26",
+  "master_seed_path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\master_seed_v04.txt",
+  "master_seed_sha256": "377629bc2867cf07524825d6f81add3fff8b312d2a3dfe517addb0bc4710c938",
+  "campaign_complete_manifest_path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\campaign_complete_manifest_v04.json",
+  "campaign_complete_manifest_sha256": "66d568efd70d34ea482ee3d15369d17dc9e2d453d468bc8c88472e78e15e0e6f",
+  "analysis_status": "FINITE_R512_PREFERENCE_0_32"
+}

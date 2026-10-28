@@ -1,0 +1,57 @@
+{
+  "handoff_version": "0.7",
+  "date": "2026-10-28",
+  "publication_performed_here": false,
+  "sources": [
+    {
+      "name": "_prepare_replication_v0_4_20261027.zip",
+      "sha256": "f225c317be686798471e52a2f34e2bbc2fdf22406654702aeebf197797764dc3",
+      "size_bytes": 210150972,
+      "included_in_handoff_zip": false,
+      "role": "Archive de production après collecte avec les 64 NPZ. A fournir séparément ou retrouver sur le poste Codex."
+    },
+    {
+      "name": "_execute_replication_v0_5_20261027.zip",
+      "sha256": "a883fcd2776a4f3b70e0992a5312c4a2a49cf4860dfa483f35539c50e0c32378",
+      "size_bytes": 31186,
+      "included_in_handoff_zip": true,
+      "role": "Rapport et traces de l’exécution."
+    },
+    {
+      "name": "DYN-Preparation_Replication_Independante_v0_4.zip",
+      "sha256": "22c2aa3efe02113feb452c48d9a5684961bfdf36a49367d640d0be2df8a28ad9",
+      "size_bytes": 7290136,
+      "included_in_handoff_zip": true,
+      "role": "Etat de préparation antérieur à la collecte, distinct de la production."
+    }
+  ],
+  "frozen_manifest_sha256": "023b69c57501ed27ccba892b0e2c2afee88fa1621f711d6c057e3dc0a58f2518",
+  "external_dependencies_to_recover_if_available": [
+    {
+      "origin": "P06",
+      "name": "support_shape_engine.py",
+      "sha256": "f1769af06d914f5ff078a3c22c5c259b8777656d5c3596321362766a6e51a191"
+    },
+    {
+      "origin": "P07",
+      "name": "baseline/polygon_fourier.py",
+      "sha256": "ec5bcec9b6e5c52bc136f39ee9c27a82a2fbc7c03b2493b24de321c3b4446245"
+    },
+    {
+      "origin": "P07",
+      "name": "targeted_supports.npz",
+      "sha256": "5efc10d213e334b0a09d8686b4f7aa3f4f6950d6735a96cbba6999165517530e"
+    },
+    {
+      "origin": "P08",
+      "name": "extension_supports.npz",
+      "sha256": "36de3f31f8fdd3c2f02e680a18433f272623c9abfbbf6aeac8452307d69e3ea4"
+    }
+  ],
+  "reproducibility_scope": "Le CSV et le vérificateur joint permettent de recomposer les statistiques. Les NPZ des polygones restent dans la grande archive de production. Une reconstruction autonome depuis le corps lisse exige les dépendances originales et un mode d’emploi portable; elle ne doit pas être annoncée si ces pièces manquent.",
+  "other_old_referenced_items_not_in_handoff": [
+    "_create_replication_controls_v05.py",
+    "DYN-Avis_Lancement_et_Controles_v0_5.zip"
+  ],
+  "no_new_scientific_campaign_authorized": true
+}

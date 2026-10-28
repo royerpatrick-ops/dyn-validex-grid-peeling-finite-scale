@@ -1,0 +1,174 @@
+{
+  "status": "FROZEN_BEFORE_DRAW",
+  "created_utc": "2026-10-27T18:10:01.053179+00:00",
+  "state_sequence": [
+    "PREPARE",
+    "FREEZE",
+    "DRAW",
+    "RUN",
+    "ANALYZE"
+  ],
+  "frozen_files": [
+    {
+      "path": "_prepare_replication_v0_4_20261027/protocol_prepare_v04.json",
+      "sha256": "2cba28de3f546342e5eb091774066f8fe74877126e50d4e933e7c09683a8d575",
+      "bytes": 5773
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/input_manifest_v04.json",
+      "sha256": "f3b02748f0ac4d906a0fa254168fd76f1ef6b4bd24b48e1d45ccb032abda6c97",
+      "bytes": 9485
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/plan/PLAN_REPLICATION_INDEPENDANTE_v0_2.json",
+      "sha256": "855857942275bf9b0f596c4b39128aceaecfd49a909d7a8a502e99403a3a3cf0",
+      "bytes": 10687
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/plan/PLAN_REPLICATION_INDEPENDANTE_v0_2.md",
+      "sha256": "ec837c1d93fd4be232237cc5c597623a4fc5df9b650b022a28505c6cd7521a29",
+      "bytes": 8376
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/launcher/geometry_engines_v04.py",
+      "sha256": "18ed0f4903233b9435146a5ee4ccc79044ffc51194e32878ae798f3b1c4aa298",
+      "bytes": 23410
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/launcher/campaign_runner_v04.py",
+      "sha256": "c451817d189f36906bef3ab6bdca2d89333061fdf4b2093587c25af9998ef693",
+      "bytes": 15183
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/launcher/replication_launcher_v04.py",
+      "sha256": "86b8ce156269f6ebc41a640dde225a40855e79807e16522d40ef2114e8f2df70",
+      "bytes": 20799
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/analysis/analyze_replication_v04.py",
+      "sha256": "f77cfac5cde90d51aac948b844dd3aa32cc978945e879d1dae8471072ad305f1",
+      "bytes": 29742
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/reference_oracle_v04.py",
+      "sha256": "890e5cb9e6d8f3317ffe843158f6cbe491f0534743705980630e30ae0e42cf6a",
+      "bytes": 29796
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/reference_qualification_v04.json",
+      "sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4",
+      "bytes": 33082
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/reference_grid_v04.npz",
+      "sha256": "cfdcf2131eb99b85ec68dbaaab9473081ce73a99791f7dcbd90169c348d5a495",
+      "bytes": 933166
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/run_historical_cost_pilot_v04.py",
+      "sha256": "5295fbd8f8d80b0f31bfbba794939303b0084c292cf531118130d12274a40c68",
+      "bytes": 45837
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_cost_pilot_v04.json",
+      "sha256": "2763f4cf43776edcd6926fd0a1e372776d59971dac3799704435eeaad70c518e",
+      "bytes": 24317
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_source_qualifications_v04.json",
+      "sha256": "d9c81d302b9bb181c227def82e91d2c7efe5399a70c0d3f92611457a85474753",
+      "bytes": 41707
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_line_00_main.npz",
+      "sha256": "ce07ce83d3cca5d9d165afc50ae68952aa9313b3e23f94919436b576804b602c",
+      "bytes": 3209227
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_line_01_main.npz",
+      "sha256": "5bf26b1124e30ae30e08c7dda968bab48de8650316d75690c25433c11922a75f",
+      "bytes": 3200286
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_line_00_quickhull_check.json",
+      "sha256": "681a03340116214b05a868b7b8a1fbb0043dfd425707e239e225c40721b733fa",
+      "bytes": 1070
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_line_01_quickhull_check.json",
+      "sha256": "d5b7efa5b9af45c64c644b9b6c7f04f8819d7ebd8f794fa03542f3ccb0318f63",
+      "bytes": 1070
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_line_00_jarvis_projection.json",
+      "sha256": "ad62fd4f4b673a1aba2cb07786072f1fbaf3345ad7b370d18428c704e0d3a06f",
+      "bytes": 4330
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/historical_line_01_jarvis_projection.json",
+      "sha256": "97c432f9c7712e2ecfa7a168257245885e25fcd8be3c193130602285171ce619",
+      "bytes": 4334
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/cost_budget_v04.json",
+      "sha256": "8b24e1dc295288ec4c3270b271ad03b3800c3bfa6e5da6c319d361eda5aa5c01",
+      "bytes": 3235
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/build_cost_budget_v04.py",
+      "sha256": "db8ae6ecfd1eaf731accbfe5bd3da174383906009b7cd7d3174f775f2dce9f6b",
+      "bytes": 7034
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/NOTES_PILOTE_v0_4.md",
+      "sha256": "2bfcf12b3f70e020ac8c121fa8096b67d923f128fda1131904f1d153088591f3",
+      "bytes": 4982
+    },
+    {
+      "path": "_prepare_replication_v0_4_20261027/pilot/COMMAND_LOG.md",
+      "sha256": "3fd9e4f7b4c79c52b7f84c4b0d49ac9b299335af98ed4d93069b64c2f1a5dd5d",
+      "bytes": 1835
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P06/DYN-Transfert_NonElliptique_Horloge-Gelee_v0_1/support_shape_engine.py",
+      "sha256": "f1769af06d914f5ff078a3c22c5c259b8777656d5c3596321362766a6e51a191",
+      "bytes": 12993
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P07/DYN-Comparaison_Contraction-Identique_v0_1/baseline/polygon_fourier.py",
+      "sha256": "ec5bcec9b6e5c52bc136f39ee9c27a82a2fbc7c03b2493b24de321c3b4446245",
+      "bytes": 9190
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P07/DYN-Comparaison_Contraction-Identique_v0_1/targeted_supports.npz",
+      "sha256": "5efc10d213e334b0a09d8686b4f7aa3f4f6950d6735a96cbba6999165517530e",
+      "bytes": 2379512
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P08/DYN-Extension_Contraction-Identique_R512_v0_1/extension_supports.npz",
+      "sha256": "36de3f31f8fdd3c2f02e680a18433f272623c9abfbbf6aeac8452307d69e3ea4",
+      "bytes": 978693
+    }
+  ],
+  "protocol_sha256": "2cba28de3f546342e5eb091774066f8fe74877126e50d4e933e7c09683a8d575",
+  "qualification_sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4",
+  "historical_pilot_sha256": "2763f4cf43776edcd6926fd0a1e372776d59971dac3799704435eeaad70c518e",
+  "master_seed": null,
+  "translation_list": null,
+  "new_draw_executed": false,
+  "new_campaign_executed": false,
+  "confirmatory_analysis_executed": false,
+  "environment": {
+    "python": "3.14.5",
+    "python_executable": "C:\\Users\\dynagenese\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "packages": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "mpmath": "1.3.0",
+      "threadpoolctl": "3.6.0",
+      "psutil": "7.2.2"
+    },
+    "threadpool_limits": 1
+  }
+}

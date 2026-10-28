@@ -1,0 +1,224 @@
+{
+  "schema_version": "inputs_replication_preparation_v0.4",
+  "generated_utc": "2026-10-27T18:09:19.132964+00:00",
+  "policy": "read and hash only; source archives remain unchanged",
+  "inputs": [
+    {
+      "path": "DYN-Bilan_Corrections_Finies_v0_4.pdf",
+      "status": "PRESENT_MATCH",
+      "bytes": 78615,
+      "sha256": "b00d378ba0abcde27ea9435448879afdfc925207e810b291d5151a037554040f",
+      "expected_sha256": "b00d378ba0abcde27ea9435448879afdfc925207e810b291d5151a037554040f"
+    },
+    {
+      "path": "DYN-Bilan_et_Controles_Corrections_Finies_v0_4.zip",
+      "status": "PRESENT_MATCH",
+      "bytes": 76034,
+      "sha256": "90101921cd5fb1bb49b265b6286e5a21b72c053453c02007a87b5793f8cf3de9",
+      "expected_sha256": "90101921cd5fb1bb49b265b6286e5a21b72c053453c02007a87b5793f8cf3de9"
+    },
+    {
+      "path": "DYN-Prompt_Codex_Pilote_Replication_v0_4.txt",
+      "status": "PRESENT_MATCH",
+      "bytes": 4797,
+      "sha256": "d72a123b0222e7d309a385643d2207860254cf443a4030c21827e322fe9d60e7",
+      "expected_sha256": "d72a123b0222e7d309a385643d2207860254cf443a4030c21827e322fe9d60e7"
+    },
+    {
+      "path": "_reanalyze_corrections_finies_v0_3_20261027.zip",
+      "status": "PRESENT_MATCH",
+      "bytes": 4385011,
+      "sha256": "500e6d2f480994b512d4c460cbb3a5993edbe8d571e93548bb2875c5ac6d869c",
+      "expected_sha256": "500e6d2f480994b512d4c460cbb3a5993edbe8d571e93548bb2875c5ac6d869c"
+    },
+    {
+      "path": "_reanalyze_corrections_finies_v0_3_20261027/replication_plan/PLAN_REPLICATION_INDEPENDANTE_v0_1.md",
+      "status": "PRESENT_MATCH",
+      "bytes": 13599,
+      "sha256": "a98d8523cd60ca728017a83ee42ea6a55cedab113eb0c740f7a8b621c19dedb2",
+      "expected_sha256": "a98d8523cd60ca728017a83ee42ea6a55cedab113eb0c740f7a8b621c19dedb2"
+    },
+    {
+      "path": "_reanalyze_corrections_finies_v0_3_20261027/replication_plan/PLAN_REPLICATION_INDEPENDANTE_v0_1.json",
+      "status": "PRESENT_MATCH",
+      "bytes": 8654,
+      "sha256": "befdfeacc103f6e26065226119f539185b064ce57439a59a311ee3773342fbd3",
+      "expected_sha256": "befdfeacc103f6e26065226119f539185b064ce57439a59a311ee3773342fbd3"
+    },
+    {
+      "path": "_reanalyze_corrections_finies_v0_3_20261027/beta_profile/reanalyze_beta_profile_v03.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 75624,
+      "sha256": "d18a94ad1ea5c79e3f32f4663ae778d7b24db434723c4269df226a15b9324f60",
+      "expected_sha256": "d18a94ad1ea5c79e3f32f4663ae778d7b24db434723c4269df226a15b9324f60"
+    },
+    {
+      "path": "_reanalyze_corrections_finies_v0_3_20261027/beta_profile/reference_qualification.json",
+      "status": "PRESENT_MATCH",
+      "bytes": 12650,
+      "sha256": "c94c09a3dbb6e125f8200cb5cc2d5fe932683573405188e3d6e302a32088fdc0",
+      "expected_sha256": "c94c09a3dbb6e125f8200cb5cc2d5fe932683573405188e3d6e302a32088fdc0"
+    },
+    {
+      "path": "_reanalyze_corrections_finies_v0_3_20261027/validation_finale_v03.json",
+      "status": "PRESENT_MATCH",
+      "bytes": 9000,
+      "sha256": "1d254fe2dbf3842297e97639ebe0302d97c826715da42f5393511a753eb940c4",
+      "expected_sha256": "1d254fe2dbf3842297e97639ebe0302d97c826715da42f5393511a753eb940c4"
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P05/DYN-Replique_Epluchage_Horloge-Gelee_v0_1/draws.csv",
+      "status": "PRESENT_MATCH",
+      "bytes": 2081,
+      "sha256": "06811464367ebbeeeaffc656b0fe2ce2018315e73ab7eaf493c7677f8d321b60",
+      "expected_sha256": "06811464367ebbeeeaffc656b0fe2ce2018315e73ab7eaf493c7677f8d321b60"
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P06/DYN-Transfert_NonElliptique_Horloge-Gelee_v0_1/draws.csv",
+      "status": "PRESENT_MATCH",
+      "bytes": 1068,
+      "sha256": "558a88a1249d288110f7467b9c548af56234ec958eeecab38bbaa3a46aed42cc",
+      "expected_sha256": "558a88a1249d288110f7467b9c548af56234ec958eeecab38bbaa3a46aed42cc"
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P07/DYN-Comparaison_Contraction-Identique_v0_1/targeted_supports.npz",
+      "status": "PRESENT_MATCH",
+      "bytes": 2379512,
+      "sha256": "5efc10d213e334b0a09d8686b4f7aa3f4f6950d6735a96cbba6999165517530e",
+      "expected_sha256": "5efc10d213e334b0a09d8686b4f7aa3f4f6950d6735a96cbba6999165517530e"
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P08/DYN-Extension_Contraction-Identique_R512_v0_1/extension_supports.npz",
+      "status": "PRESENT_MATCH",
+      "bytes": 978693,
+      "sha256": "36de3f31f8fdd3c2f02e680a18433f272623c9abfbbf6aeac8452307d69e3ea4",
+      "expected_sha256": "36de3f31f8fdd3c2f02e680a18433f272623c9abfbbf6aeac8452307d69e3ea4"
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P06/DYN-Transfert_NonElliptique_Horloge-Gelee_v0_1/support_shape_engine.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 12993,
+      "sha256": "f1769af06d914f5ff078a3c22c5c259b8777656d5c3596321362766a6e51a191",
+      "expected_sha256": "f1769af06d914f5ff078a3c22c5c259b8777656d5c3596321362766a6e51a191"
+    },
+    {
+      "path": "_audit_codex_pi_morphodynamique_20261027/working_copies/P07/DYN-Comparaison_Contraction-Identique_v0_1/baseline/polygon_fourier.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 9190,
+      "sha256": "ec5bcec9b6e5c52bc136f39ee9c27a82a2fbc7c03b2493b24de321c3b4446245",
+      "expected_sha256": "ec5bcec9b6e5c52bc136f39ee9c27a82a2fbc7c03b2493b24de321c3b4446245"
+    },
+    {
+      "path": "DYN-Comparaison_Contraction-Identique_v0_1/baseline/support_shape_engine.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 12993,
+      "sha256": "f1769af06d914f5ff078a3c22c5c259b8777656d5c3596321362766a6e51a191",
+      "expected_sha256": null
+    },
+    {
+      "path": "DYN-Comparaison_Contraction-Identique_v0_1/baseline/polygon_fourier.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 9190,
+      "sha256": "ec5bcec9b6e5c52bc136f39ee9c27a82a2fbc7c03b2493b24de321c3b4446245",
+      "expected_sha256": null
+    },
+    {
+      "path": "DYN-Comparaison_Contraction-Identique_v0_1/run_contraction.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 19984,
+      "sha256": "4aabaa05ab6185095f603a5e8efedd6e7155895aa0d0b98142544187d6ee2294",
+      "expected_sha256": null
+    },
+    {
+      "path": "DYN-Extension_Contraction-Identique_R512_v0_1/run_extension.py",
+      "status": "PRESENT_MATCH",
+      "bytes": 13835,
+      "sha256": "214aee121edd7996781c483a1ef1b946ec09eafb004df05299b9313ef8fd0e37",
+      "expected_sha256": null
+    },
+    {
+      "path": "DYN-Comparaison_Contraction-Identique_v0_1/targeted_samples.csv",
+      "status": "PRESENT_MATCH",
+      "bytes": 321878,
+      "sha256": "1460bd8224f0b7759d6e5f7f0a043515975e11307eb278fb6d98dde9d776746d",
+      "expected_sha256": null
+    },
+    {
+      "path": "DYN-Extension_Contraction-Identique_R512_v0_1/extension_samples.csv",
+      "status": "PRESENT_MATCH",
+      "bytes": 108281,
+      "sha256": "785607bc32374aafaa3574bf7d981d02934de371c56aadad7ca3e29859132524",
+      "expected_sha256": null
+    }
+  ],
+  "bilan_v04_bundle": {
+    "path": "DYN-Bilan_et_Controles_Corrections_Finies_v0_4.zip",
+    "crc": "OK",
+    "manifest": "OK",
+    "declared_files": 8,
+    "checks": [
+      {
+        "path": "DECISION_INTEGRATION_v0_4.json",
+        "present": true,
+        "bytes": 5771,
+        "sha256": "62faf19a91e4a72f89761be0aa90de2b67728475466c31ca87525603f0ff713a",
+        "matches": true
+      },
+      {
+        "path": "DYN-Bilan_Corrections_Finies_v0_4.md",
+        "present": true,
+        "bytes": 8002,
+        "sha256": "017c96cfc33780550402f74ed68d44a85ad7cc5fd65973be6fe83c032c0bdcba",
+        "matches": true
+      },
+      {
+        "path": "DYN-Bilan_Corrections_Finies_v0_4.pdf",
+        "present": true,
+        "bytes": 53646,
+        "sha256": "be252f1af5ca5e0fcd20ba1d52b528be127088f5b0f93308a74a84095fa2508a",
+        "matches": true
+      },
+      {
+        "path": "DYN-Prompt_Codex_Pilote_Replication_v0_4.txt",
+        "present": true,
+        "bytes": 4797,
+        "sha256": "d72a123b0222e7d309a385643d2207860254cf443a4030c21827e322fe9d60e7",
+        "matches": true
+      },
+      {
+        "path": "evidence/beta/audit_beta_v03_autonome.py",
+        "present": true,
+        "bytes": 10504,
+        "sha256": "d506b7676ee55069f1eac9337336704d0fa4d38d792386f9ad5653f4c80eb02c",
+        "matches": true
+      },
+      {
+        "path": "evidence/beta/bilan_beta_v03.json",
+        "present": true,
+        "bytes": 28707,
+        "sha256": "e51ab77995c6a6129c31159f2bb56da4e653848e2e7d4c100bce4a55b3d24a94",
+        "matches": true
+      },
+      {
+        "path": "evidence/clock/bilan_clock_step.json",
+        "present": true,
+        "bytes": 10921,
+        "sha256": "8d7544e9e4710205889c0cc3fc118b6454632a3cf832ae8b497ea0c53d4e7a3e",
+        "matches": true
+      },
+      {
+        "path": "evidence/clock/recompose_clock_step.py",
+        "present": true,
+        "bytes": 11859,
+        "sha256": "c402f0e4b4de51b70e4009f7c3c05f2d4df0d45c693e0bf2f24542732a8248c2",
+        "matches": true
+      }
+    ]
+  },
+  "summary": {
+    "targets": 21,
+    "matching": 21,
+    "status": "INPUTS_VERIFIED",
+    "new_translation_draw_executed": false
+  }
+}

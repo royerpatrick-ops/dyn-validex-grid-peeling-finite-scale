@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-28",
+  "pdf_file": "../synthese_v06/DYN-Fiche_Replication_Prospective_64_v0_6.pdf",
+  "pdf_sha256": "6249de781857c9a97bb181faee9f21d52d66191d47025a4a775c0748de871084",
+  "pdf_size_bytes": 142621,
+  "page_count": 3,
+  "render_dpi": 200,
+  "rendered_pages": [
+    1,
+    2,
+    3
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "render_filename": "fiche_v06_200dpi-1.png",
+      "render_sha256": "8cc77ac60cbe106fa3d3f9efe5390e931e8857898e1dbff6c126281c3d4948a3",
+      "render_dpi": 200,
+      "renderer": "Poppler pdftoppm",
+      "png_open_verified": true,
+      "visually_inspected": true,
+      "observation": "Aucune superposition, découpe ou glyphe manquant visible; texte et tableaux lisibles."
+    },
+    {
+      "page": 2,
+      "render_filename": "fiche_v06_200dpi-2.png",
+      "render_sha256": "8e51bd7e5e8bec303593aa5355fde1265f5d42c8edcd4f1e7afb1f1632ab9d20",
+      "render_dpi": 200,
+      "renderer": "Poppler pdftoppm",
+      "png_open_verified": true,
+      "visually_inspected": true,
+      "observation": "Tableau et figure à deux panneaux lisibles; aucun chevauchement visible des légendes, axes ou paragraphes."
+    },
+    {
+      "page": 3,
+      "render_filename": "fiche_v06_200dpi-3.png",
+      "render_sha256": "9f6c8ea5aa0f2f53d1975421ed1fd1fda94f3f622dd3a77e8f14f6cc1ea7db91",
+      "render_dpi": 200,
+      "renderer": "PyMuPDF",
+      "png_open_verified": true,
+      "visually_inspected": true,
+      "observation": "Aucune superposition, découpe ou glyphe manquant visible; texte et tableaux lisibles."
+    }
+  ],
+  "font_inventory_source": "controle_independant_110dpi_v06.json",
+  "font_result": "Les spans observés utilisent DejaVuSans et DejaVuSans-Bold incorporées, avec mappage Unicode. Helvetica est une ressource non incorporée sans utilisation visible observée.",
+  "verdict": "FICHE_V06_LISIBLE_AUCUN_DEFAUT_VISUEL_IDENTIFIE",
+  "limits": [
+    "La fiche de synthèse est inchangée. Les formules y sont parfois écrites linéairement; le manuscrit autonome doit utiliser une composition mathématique native.",
+    "Les URL sont imprimées, sans annotations de liens dans cette fiche.",
+    "Ce constat ne valide pas le futur manuscrit PDF, ni un exemplaire public qui diffère par son contenu.",
+    "Aucune publication n’a été effectuée dans cette préparation."
+  ]
+}

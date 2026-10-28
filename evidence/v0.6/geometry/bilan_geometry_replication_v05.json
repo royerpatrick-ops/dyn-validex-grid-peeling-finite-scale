@@ -1,0 +1,207 @@
+{
+  "status": "SAVED_EIGHT_PRESPECIFIED_ROWS_GEOMETRY_REPRODUCED",
+  "scope": "No new coordinates, seed, hull construction or peeling. All saved layer records on the eight predeclared QuickHull-check rows were validated using independent exact-integer row reconstruction and direct Fourier integration.",
+  "row_indices": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56
+  ],
+  "rows_checked": 8,
+  "total_layers_checked": 30863,
+  "maximum_perimeter_abs_error": 0.0,
+  "maximum_endpoint_fourier_abs_error": 3.260076641651244e-16,
+  "maximum_interpolated_fourier_abs_error": 2.9789005286677367e-16,
+  "rows": [
+    {
+      "line": "row_00_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14477648,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 2.950569600745417e-16,
+      "max_interpolated_fourier_abs_error": 2.645066557142979e-16,
+      "cumulative_digest_reproduced": "eaedab160fa3fad95032630cdedbac8494f4cbf495b346cb591769caa9d91fb0",
+      "projected_jarvis_visits_recomputed": 484543738339,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 0
+    },
+    {
+      "line": "row_08_main.npz",
+      "layers_checked": 3857,
+      "trajectory_layer_counts": [
+        365,
+        368,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14476976,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 2.690365724022482e-16,
+      "max_interpolated_fourier_abs_error": 2.3236431438290587e-16,
+      "cumulative_digest_reproduced": "4ab6c0e2f4195eac71b12defe4e9512a8fec1f492c4bca32d2f98c4e6678d80b",
+      "projected_jarvis_visits_recomputed": 484602840092,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 8
+    },
+    {
+      "line": "row_16_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14478944,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 3.125637248213935e-16,
+      "max_interpolated_fourier_abs_error": 2.352036698639163e-16,
+      "cumulative_digest_reproduced": "234cf6ed28551945baecb16c77ba61ebfdb4bd958b367f21a042ff31686d2028",
+      "projected_jarvis_visits_recomputed": 484556691316,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 16
+    },
+    {
+      "line": "row_24_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14479440,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 2.454348378275524e-16,
+      "max_interpolated_fourier_abs_error": 2.3278204991276814e-16,
+      "cumulative_digest_reproduced": "334f893e1f04f8ac7f5f3b2fa876212d2e4fd4016b598e8bb2fcb5f54ea37aea",
+      "projected_jarvis_visits_recomputed": 484577676759,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 24
+    },
+    {
+      "line": "row_32_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14478576,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 3.260076641651244e-16,
+      "max_interpolated_fourier_abs_error": 2.9408041232247505e-16,
+      "cumulative_digest_reproduced": "fec35fc940698ed11db2b70b74bbed3a2da1e378c0beb2e6065081eb4c125988",
+      "projected_jarvis_visits_recomputed": 484585768160,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 32
+    },
+    {
+      "line": "row_40_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14479408,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 2.78139752332132e-16,
+      "max_interpolated_fourier_abs_error": 2.5694204212956154e-16,
+      "cumulative_digest_reproduced": "6dbac23f4cfe2642451ee59537f60b430edcf26d62319e7558711a7875c6cbc3",
+      "projected_jarvis_visits_recomputed": 484597918317,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 40
+    },
+    {
+      "line": "row_48_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14478624,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 3.227452580017606e-16,
+      "max_interpolated_fourier_abs_error": 2.472185236727438e-16,
+      "cumulative_digest_reproduced": "6365f810fd76713dea9051646b14ad1d008d67daaa1a26183a4b613837730b45",
+      "projected_jarvis_visits_recomputed": 484618741925,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 48
+    },
+    {
+      "line": "row_56_main.npz",
+      "layers_checked": 3858,
+      "trajectory_layer_counts": [
+        365,
+        369,
+        361,
+        921,
+        925,
+        917
+      ],
+      "uncompressed_array_bytes": 14477632,
+      "max_perimeter_abs_error": 0.0,
+      "max_endpoint_fourier_abs_error": 3.115468791823452e-16,
+      "max_interpolated_fourier_abs_error": 2.9789005286677367e-16,
+      "cumulative_digest_reproduced": "57e488c84317356beb00c04538e729431f9b07743e38a45faead472a862f4880",
+      "projected_jarvis_visits_recomputed": 484589584502,
+      "remaining_row_sets_validated_from_initial_hull": true,
+      "row_index": 56
+    }
+  ],
+  "input_sha256": {
+    "rows/row_00_main.npz": "6c51f3fa04511578471babcd9e896fa7d7fbe203a7f692ecbd28a175e5f7d271",
+    "rows/row_00_quickhull_check.json": "f6695dfab47e63c6d7b7c1530562abd30a280b5ff917d0b2377075dcccb0680f",
+    "rows/row_08_main.npz": "653a3a8ecba770d8f71c8f2b38c03f7d6b0596614fed91234cf7ed3463ab8c60",
+    "rows/row_08_quickhull_check.json": "fe40a68b540e330cd8c238f1b4b807f3d507e68cb5057d61329dacfe3e50f75d",
+    "rows/row_16_main.npz": "d1b8f814a8f309dc2787024fab1e0055a0d5451e59b55e33a33bdd292a365b8e",
+    "rows/row_16_quickhull_check.json": "c8c5f27b4c9e24b94d2555bed1091c93382bd5766a59fb8d290659d79b39e069",
+    "rows/row_24_main.npz": "c066cb741e0f845420a6a921d6401af999413f644f2699c3d023dd229ec8c496",
+    "rows/row_24_quickhull_check.json": "4dd6c013e790e032b0f9eada10866c4e3d07744019054cbabcd4b3957e9be7fb",
+    "rows/row_32_main.npz": "06afbf5208cc8b9a666de6f0c77935da53c4a582c726585ac03c466ef12890cf",
+    "rows/row_32_quickhull_check.json": "169f42508d5966fb3de7b70244e4e2426cca19b5e858bb248c3f6cbfa457a016",
+    "rows/row_40_main.npz": "03aa417e2524667d6a973434c6800df5cc2961710265f03b2372bbca43784f7b",
+    "rows/row_40_quickhull_check.json": "054736a622c67ea5dac2aa22e548632965a9c42f1ed06a19c7377446a65c38aa",
+    "rows/row_48_main.npz": "f944148ebfc72f55cd243e0d695d0a1125bf3b1d2c0cf6b9d107a514c590b88b",
+    "rows/row_48_quickhull_check.json": "3afd8d91fef13606a6bc66e70fd88a220e06a2e583a1e4194a6f4850e641af55",
+    "rows/row_56_main.npz": "5df5a362767c3b3df10e27ce626fd4ce2c82a086e87b0f0ba288018c2cd61d24",
+    "rows/row_56_quickhull_check.json": "3438edd67a3dd6717da0bf1057702dae415e3fb9c0888b598dce0eecb33b2082"
+  },
+  "script_sha256": "7bf9bdd118d5236790013b6b7def41491a0096bad5d91e43ade2112f1d719ad4",
+  "limits": [
+    "Only eight predeclared rows, not all64 main rows, received this full layer geometry check.",
+    "The initial lattice set is reconstructed from each initial integer hull. Membership in the original smooth body was not independently requalified.",
+    "QuickHull raw secondary polygons are not separately saved; equality reports are checked by reproducing their cumulative primary and secondary digest from main saved polygons.",
+    "This check does not execute either delivered geometry engine and does not create any new scientific observations.",
+    "Numerical Fourier identities are checked in floating point; no interval enclosure is claimed."
+  ]
+}

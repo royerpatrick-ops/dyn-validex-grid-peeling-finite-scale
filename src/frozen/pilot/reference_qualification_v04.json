@@ -1,0 +1,975 @@
+{
+  "status": "QUALIFIED_EMPIRICAL_ORACLE_NOT_INTERVAL_CERTIFIED",
+  "source_sha256": "890e5cb9e6d8f3317ffe843158f6cbe491f0534743705980630e30ae0e42cf6a",
+  "config_sha256": "2cba28de3f546342e5eb091774066f8fe74877126e50d4e933e7c09683a8d575",
+  "domain": {
+    "q_abs_min": 0.75,
+    "q_abs_max": 1.0,
+    "grid_count": 1025,
+    "grid_spacing": 0.000244140625
+  },
+  "beta_grid": [
+    0.3,
+    0.31,
+    0.32,
+    0.3333333333333333,
+    0.34,
+    0.35,
+    0.36
+  ],
+  "no_peeling_result_used": true,
+  "parameters": {
+    "beta_grid": [
+      0.3,
+      0.31,
+      0.32,
+      0.3333333333333333,
+      0.34,
+      0.35,
+      0.36
+    ],
+    "q_absolute_domain": [
+      0.75,
+      1.0
+    ],
+    "qualification_grid_count": 1025,
+    "t_max": 0.32,
+    "threadpool_limits": 1,
+    "primary": {
+      "variable": "rho",
+      "space": "full-period Fourier",
+      "N": 192,
+      "time": "BDF",
+      "rtol": 2e-11,
+      "atol": 2e-12
+    },
+    "spatial_refinement": {
+      "variable": "rho",
+      "space": "full-period Fourier",
+      "N": 384,
+      "time": "BDF",
+      "rtol": 2e-12,
+      "atol": 2e-13
+    },
+    "temporal_refinement": {
+      "variable": "rho",
+      "space": "full-period Fourier",
+      "N": 192,
+      "time": "BDF",
+      "rtol": 2e-12,
+      "atol": 2e-13
+    },
+    "distinct_method": {
+      "variable": "h",
+      "symmetry_factor": 3,
+      "space": "periodic FD4",
+      "N": 512,
+      "time": "Radau",
+      "rtol": 2e-11,
+      "atol": 2e-12
+    },
+    "qualification_thresholds": {
+      "support_max_absolute": 2e-07,
+      "a3_max_absolute": 3e-09,
+      "target_time_max_absolute": 2e-08,
+      "target_c0_residual": 2e-12,
+      "analytic_control_max_absolute": 2e-08
+    },
+    "controls": [
+      "rho positivity for every beta and method",
+      "disk for every beta",
+      "ellipse for beta=1/3",
+      "separate space refinement",
+      "separate time refinement",
+      "distinct support formulation"
+    ],
+    "errors": "empirical discrepancies, not interval enclosures",
+    "no_peeling_feedback": true
+  },
+  "by_beta": {
+    "0.29999999999999999": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.3,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.11550830000123824,
+        "elapsed_cpu_seconds": 0.109375,
+        "nfev": 670,
+        "njev": 2,
+        "nlu": 56
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.3,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.16867510000156472,
+          "elapsed_cpu_seconds": 0.171875,
+          "nfev": 833,
+          "njev": 2,
+          "nlu": 75
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.3,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.2740025000020978,
+          "elapsed_cpu_seconds": 0.28125,
+          "nfev": 854,
+          "njev": 3,
+          "nlu": 76
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 5.839773109528323e-14,
+          "a3_max_absolute": 8.21565125953563e-15,
+          "target_time_max_absolute": 1.4738210651898953e-14,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.3,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.16867510000156472,
+          "elapsed_cpu_seconds": 0.171875,
+          "nfev": 833,
+          "njev": 2,
+          "nlu": 75
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.7231771565207055e-12,
+          "a3_max_absolute": 5.086868427916577e-13,
+          "target_time_max_absolute": 4.1466829969749597e-13,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.3,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.08019110000168439,
+          "elapsed_cpu_seconds": 0.078125,
+          "factor": 3,
+          "nfev": 951,
+          "njev": 4,
+          "nlu": 26
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.5224710381289697e-11,
+          "a3_max_absolute": 3.6292913305649078e-12,
+          "target_time_max_absolute": 1.1734779814531748e-12,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.6292913305649078e-12,
+      "received_v03_floor": 0.0,
+      "epsilon_ref_qualification_grid_max_used": 3.6292913305649078e-12,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 5.662137425588298e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    },
+    "0.31": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.31,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.14281780000237632,
+        "elapsed_cpu_seconds": 0.140625,
+        "nfev": 677,
+        "njev": 2,
+        "nlu": 56
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.31,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.17483969999739202,
+          "elapsed_cpu_seconds": 0.15625,
+          "nfev": 845,
+          "njev": 2,
+          "nlu": 76
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.31,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.31502739999996265,
+          "elapsed_cpu_seconds": 0.328125,
+          "nfev": 858,
+          "njev": 3,
+          "nlu": 77
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 1.2323475573339238e-14,
+          "a3_max_absolute": 5.379097213382774e-16,
+          "target_time_max_absolute": 9.936496070395151e-15,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.31,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.17483969999739202,
+          "elapsed_cpu_seconds": 0.15625,
+          "nfev": 845,
+          "njev": 2,
+          "nlu": 76
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.7503776206240218e-12,
+          "a3_max_absolute": 5.278312509872487e-13,
+          "target_time_max_absolute": 4.3853809472693683e-13,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.31,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.08249290000094334,
+          "elapsed_cpu_seconds": 0.078125,
+          "factor": 3,
+          "nfev": 970,
+          "njev": 4,
+          "nlu": 26
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.609778976785492e-11,
+          "a3_max_absolute": 3.722734250912957e-12,
+          "target_time_max_absolute": 1.2001510896197942e-12,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.722734250912957e-12,
+      "received_v03_floor": 0.0,
+      "epsilon_ref_qualification_grid_max_used": 3.722734250912957e-12,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 5.662137425588298e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    },
+    "0.32000000000000001": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.32,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.13796259999799076,
+        "elapsed_cpu_seconds": 0.140625,
+        "nfev": 687,
+        "njev": 2,
+        "nlu": 57
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.32,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.18194000000221422,
+          "elapsed_cpu_seconds": 0.1875,
+          "nfev": 855,
+          "njev": 2,
+          "nlu": 77
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.32,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.29460549999930663,
+          "elapsed_cpu_seconds": 0.28125,
+          "nfev": 861,
+          "njev": 3,
+          "nlu": 78
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 1.2878587085651816e-14,
+          "a3_max_absolute": 5.759385089721903e-16,
+          "target_time_max_absolute": 1.0241807402167069e-14,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.32,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.18194000000221422,
+          "elapsed_cpu_seconds": 0.1875,
+          "nfev": 855,
+          "njev": 2,
+          "nlu": 77
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.7753576386780878e-12,
+          "a3_max_absolute": 5.494944777107741e-13,
+          "target_time_max_absolute": 4.603817327364368e-13,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.32,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.08119760000045062,
+          "elapsed_cpu_seconds": 0.078125,
+          "factor": 3,
+          "nfev": 1001,
+          "njev": 4,
+          "nlu": 26
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.7831069953899714e-11,
+          "a3_max_absolute": 3.690268173339097e-12,
+          "target_time_max_absolute": 1.122907322681499e-12,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.690268173339097e-12,
+      "received_v03_floor": 3.999023335258609e-13,
+      "epsilon_ref_qualification_grid_max_used": 3.690268173339097e-12,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 5.662137425588298e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    },
+    "0.33333333333333331": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.3333333333333333,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.13956060000055004,
+        "elapsed_cpu_seconds": 0.125,
+        "nfev": 702,
+        "njev": 2,
+        "nlu": 58
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.3333333333333333,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.1876278000017919,
+          "elapsed_cpu_seconds": 0.1875,
+          "nfev": 878,
+          "njev": 2,
+          "nlu": 78
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.3333333333333333,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.3012018999979773,
+          "elapsed_cpu_seconds": 0.296875,
+          "nfev": 873,
+          "njev": 3,
+          "nlu": 79
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 1.3100631690576847e-14,
+          "a3_max_absolute": 6.661518267641691e-16,
+          "target_time_max_absolute": 1.0408340855860843e-14,
+          "target_c0_residual": 5.773159728050814e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.3333333333333333,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.1876278000017919,
+          "elapsed_cpu_seconds": 0.1875,
+          "nfev": 878,
+          "njev": 2,
+          "nlu": 78
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.853517339611699e-12,
+          "a3_max_absolute": 6.378716999067519e-13,
+          "target_time_max_absolute": 5.048739204482899e-13,
+          "target_c0_residual": 5.773159728050814e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.3333333333333333,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.08804580000287388,
+          "elapsed_cpu_seconds": 0.078125,
+          "factor": 3,
+          "nfev": 1013,
+          "njev": 4,
+          "nlu": 30
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.3956280575655455e-11,
+          "a3_max_absolute": 3.6956343362773905e-12,
+          "target_time_max_absolute": 1.1250167464282868e-12,
+          "target_c0_residual": 5.773159728050814e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.6956343362773905e-12,
+      "received_v03_floor": 2.083506908667765e-09,
+      "epsilon_ref_qualification_grid_max_used": 2.083506908667765e-09,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 5.773159728050814e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    },
+    "0.34000000000000002": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.34,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.14814280000064173,
+        "elapsed_cpu_seconds": 0.15625,
+        "nfev": 706,
+        "njev": 2,
+        "nlu": 58
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.34,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.193348299999343,
+          "elapsed_cpu_seconds": 0.203125,
+          "nfev": 885,
+          "njev": 2,
+          "nlu": 79
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.34,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.3103969000003417,
+          "elapsed_cpu_seconds": 0.3125,
+          "nfev": 881,
+          "njev": 4,
+          "nlu": 80
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 3.7192471324942744e-14,
+          "a3_max_absolute": 6.515624097922438e-15,
+          "target_time_max_absolute": 1.3211653993039363e-14,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.34,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.193348299999343,
+          "elapsed_cpu_seconds": 0.203125,
+          "nfev": 885,
+          "njev": 2,
+          "nlu": 79
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.870170684981076e-12,
+          "a3_max_absolute": 6.797583329837177e-13,
+          "target_time_max_absolute": 5.177247519583261e-13,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.34,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.09180449999985285,
+          "elapsed_cpu_seconds": 0.09375,
+          "factor": 3,
+          "nfev": 1035,
+          "njev": 4,
+          "nlu": 30
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.4127365943750192e-11,
+          "a3_max_absolute": 3.759295097292462e-12,
+          "target_time_max_absolute": 1.187300258109758e-12,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.759295097292462e-12,
+      "received_v03_floor": 0.0,
+      "epsilon_ref_qualification_grid_max_used": 3.759295097292462e-12,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 5.662137425588298e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    },
+    "0.34999999999999998": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.35,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.1473009999972419,
+        "elapsed_cpu_seconds": 0.15625,
+        "nfev": 723,
+        "njev": 2,
+        "nlu": 59
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.35,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.19263219999993453,
+          "elapsed_cpu_seconds": 0.203125,
+          "nfev": 902,
+          "njev": 3,
+          "nlu": 80
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.35,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.31222989999878337,
+          "elapsed_cpu_seconds": 0.3125,
+          "nfev": 895,
+          "njev": 4,
+          "nlu": 81
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 3.774758283725532e-14,
+          "a3_max_absolute": 6.609300654778232e-15,
+          "target_time_max_absolute": 4.6074255521944e-15,
+          "target_c0_residual": 5.551115123125783e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.35,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.19263219999993453,
+          "elapsed_cpu_seconds": 0.203125,
+          "nfev": 902,
+          "njev": 3,
+          "nlu": 80
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.892708212380967e-12,
+          "a3_max_absolute": 6.900972849834922e-13,
+          "target_time_max_absolute": 5.367928324062632e-13,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.35,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.08901289999994333,
+          "elapsed_cpu_seconds": 0.078125,
+          "factor": 3,
+          "nfev": 1027,
+          "njev": 4,
+          "nlu": 32
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.4348300325650598e-11,
+          "a3_max_absolute": 3.847880801447454e-12,
+          "target_time_max_absolute": 1.2518874825673265e-12,
+          "target_c0_residual": 5.662137425588298e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.847880801447454e-12,
+      "received_v03_floor": 0.0,
+      "epsilon_ref_qualification_grid_max_used": 3.847880801447454e-12,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 5.662137425588298e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    },
+    "0.35999999999999999": {
+      "primary": {
+        "variable": "rho",
+        "beta": 0.36,
+        "N": 192,
+        "space_method": "full-period Fourier",
+        "time_method": "BDF",
+        "rtol": 2e-11,
+        "atol": 2e-12,
+        "minimum_rho_rhs": 0.4,
+        "elapsed_wall_seconds": 0.15015510000012,
+        "elapsed_cpu_seconds": 0.140625,
+        "nfev": 732,
+        "njev": 2,
+        "nlu": 59
+      },
+      "spatial_refinement": {
+        "baseline_description": {
+          "variable": "rho",
+          "beta": 0.36,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.192215800001577,
+          "elapsed_cpu_seconds": 0.1875,
+          "nfev": 941,
+          "njev": 3,
+          "nlu": 82
+        },
+        "description": {
+          "variable": "rho",
+          "beta": 0.36,
+          "N": 384,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.3141542999983358,
+          "elapsed_cpu_seconds": 0.3125,
+          "nfev": 901,
+          "njev": 4,
+          "nlu": 82
+        },
+        "comparison_N192_tight_to_N384_tight": {
+          "support_max_absolute": 1.4488410471358293e-13,
+          "a3_max_absolute": 2.9882346765271385e-14,
+          "target_time_max_absolute": 2.1788126858268697e-14,
+          "target_c0_residual": 3.885780586188048e-15,
+          "rho_min": 0.4
+        }
+      },
+      "time_refinement": {
+        "description": {
+          "variable": "rho",
+          "beta": 0.36,
+          "N": 192,
+          "space_method": "full-period Fourier",
+          "time_method": "BDF",
+          "rtol": 2e-12,
+          "atol": 2e-13,
+          "minimum_rho_rhs": 0.4,
+          "elapsed_wall_seconds": 0.192215800001577,
+          "elapsed_cpu_seconds": 0.1875,
+          "nfev": 941,
+          "njev": 3,
+          "nlu": 82
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 2.010946964503546e-12,
+          "a3_max_absolute": 7.79019210284041e-13,
+          "target_time_max_absolute": 5.79591930005563e-13,
+          "target_c0_residual": 3.885780586188048e-15,
+          "rho_min": 0.4
+        }
+      },
+      "distinct_support_FD4_Radau": {
+        "description": {
+          "variable": "h",
+          "beta": 0.36,
+          "N": 512,
+          "space_method": "fd4",
+          "time_method": "Radau",
+          "rtol": 2e-11,
+          "atol": 2e-12,
+          "minimum_rho_rhs": 0.40000000016425474,
+          "elapsed_wall_seconds": 0.09122619999834569,
+          "elapsed_cpu_seconds": 0.09375,
+          "factor": 3,
+          "nfev": 1064,
+          "njev": 5,
+          "nlu": 34
+        },
+        "comparison_to_primary": {
+          "support_max_absolute": 1.4309220475183793e-11,
+          "a3_max_absolute": 3.708051527496574e-12,
+          "target_time_max_absolute": 1.1068368444000498e-12,
+          "target_c0_residual": 3.885780586188048e-15,
+          "rho_min": 0.4
+        }
+      },
+      "empirical_a3_reference_error_max_on_qualification_grid": 3.708051527496574e-12,
+      "received_v03_floor": 0.0,
+      "epsilon_ref_qualification_grid_max_used": 3.708051527496574e-12,
+      "epsilon_rule": "max observed on the finite qualification grid across space, time and distinct-method a3 comparisons, then max with the received v0.3 floor when prescribed",
+      "primary_target_c0_residual": 3.885780586188048e-15,
+      "primary_rho_min_on_q_grid": 0.4
+    }
+  },
+  "epsilon_ref_rule": "per beta maximum observed on the finite qualification grid across separate space refinement, separate time refinement and distinct support formulation; beta=1/3 and .32 also use max with received v0.3 floors; not a domain envelope",
+  "received_v03_floors": {
+    "1/3": 2.083506908667765e-09,
+    "0.32": 3.999023335258609e-13
+  },
+  "epsilon_ref_qualification_grid_max_final": {
+    "0.29999999999999999": 3.6292913305649078e-12,
+    "0.31": 3.722734250912957e-12,
+    "0.32000000000000001": 3.690268173339097e-12,
+    "0.33333333333333331": 2.083506908667765e-09,
+    "0.34000000000000002": 3.759295097292462e-12,
+    "0.34999999999999998": 3.847880801447454e-12,
+    "0.35999999999999999": 3.708051527496574e-12
+  },
+  "disk_controls_every_beta": {
+    "0.29999999999999999": {
+      "time_max_absolute": 3.744679566430875e-11,
+      "state_max_absolute": 4.850564394587309e-13
+    },
+    "0.31": {
+      "time_max_absolute": 3.506778201156635e-11,
+      "state_max_absolute": 4.963807143099075e-13
+    },
+    "0.32000000000000001": {
+      "time_max_absolute": 3.549169291794385e-11,
+      "state_max_absolute": 4.940492459581947e-13
+    },
+    "0.33333333333333331": {
+      "time_max_absolute": 3.6047415052919973e-11,
+      "state_max_absolute": 4.924949337237194e-13
+    },
+    "0.34000000000000002": {
+      "time_max_absolute": 3.6442043827022985e-11,
+      "state_max_absolute": 4.815037257799304e-13
+    },
+    "0.34999999999999998": {
+      "time_max_absolute": 3.71174480040537e-11,
+      "state_max_absolute": 4.829470157119431e-13
+    },
+    "0.35999999999999999": {
+      "time_max_absolute": 3.7862685209333335e-11,
+      "state_max_absolute": 4.812816811750054e-13
+    }
+  },
+  "ellipse_beta_1_over_3": {
+    "time_max_absolute": 3.5970310063859756e-11,
+    "support_max_absolute": 7.001066393286237e-13,
+    "description": {
+      "variable": "h",
+      "beta": 0.3333333333333333,
+      "N": 128,
+      "space_method": "spectral",
+      "time_method": "BDF",
+      "rtol": 2e-12,
+      "atol": 2e-13,
+      "minimum_rho_rhs": 0.23294875871144305,
+      "elapsed_wall_seconds": 0.035354300001927186,
+      "elapsed_cpu_seconds": 0.03125,
+      "factor": 2,
+      "nfev": 179,
+      "njev": 2,
+      "nlu": 20
+    }
+  },
+  "max_refinement_discrepancies": {
+    "support_max_absolute": 1.7831069953899714e-11,
+    "a3_max_absolute": 3.847880801447454e-12,
+    "target_time_max_absolute": 1.2518874825673265e-12,
+    "target_c0_residual": 5.773159728050814e-15
+  },
+  "max_analytic_control_discrepancy": 3.7862685209333335e-11,
+  "positivity_all_beta_and_methods": true,
+  "thresholds": {
+    "support_max_absolute": 2e-07,
+    "a3_max_absolute": 3e-09,
+    "target_time_max_absolute": 2e-08,
+    "target_c0_residual": 2e-12,
+    "analytic_control_max_absolute": 2e-08
+  },
+  "cost": {
+    "qualification_wall_seconds": 18.527785199999926,
+    "qualification_cpu_seconds": 18.859375,
+    "production_primary_seven_beta_wall_seconds_observed_within_qualification": 0.981448200000159,
+    "production_primary_seven_beta_cpu_seconds_observed_within_qualification": 0.96875,
+    "peak_rss_bytes": 201818112,
+    "baseline_rss_bytes": 83578880,
+    "incremental_peak_rss_bytes": 118239232,
+    "peak_tracemalloc_bytes": 99878063,
+    "tracemalloc_current_at_stop_bytes": 41167843,
+    "reference_grid_storage_bytes": 933166
+  },
+  "reference_grid": {
+    "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\pilot\\reference_grid_v04.npz",
+    "sha256": "cfdcf2131eb99b85ec68dbaaab9473081ce73a99791f7dcbd90169c348d5a495",
+    "bytes": 933166
+  },
+  "environment": {
+    "python": "3.14.5",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "threadpoolctl": "3.6.0",
+    "threadpool_limits": 1,
+    "platform": "Windows-11-10.0.26300-SP0",
+    "psutil": "7.2.2"
+  },
+  "scope": "finite 1025-node-grid empirical qualification over the frozen q_abs domain; neither interval enclosure nor domain-wide envelope"
+}

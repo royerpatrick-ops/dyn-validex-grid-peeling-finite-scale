@@ -1,0 +1,272 @@
+{
+  "handoff_version": "0.7",
+  "date": "2026-10-28",
+  "files": [
+    {
+      "path": "DYN-PROMPT_PUBLICATION_CODEX_v0_7.txt",
+      "size_bytes": 13134,
+      "sha256": "b7def302704c5dac6df804b6439668493e58af2702e4ea3812d37bdccd39f595"
+    },
+    {
+      "path": "PROTOCOLE_CONTROLE_PDF.md",
+      "size_bytes": 3576,
+      "sha256": "c824fe0dc823b0114ac73a0d236af11f4b148df047c79ba190062137f442fc72"
+    },
+    {
+      "path": "README_TRANSMISSION.md",
+      "size_bytes": 3437,
+      "sha256": "1e3c6c77fb0776513e9c8c932842d881d5e62094cb697e8bcbd95452f859d582"
+    },
+    {
+      "path": "SOURCES_ET_DEPENDANCES.json",
+      "size_bytes": 2394,
+      "sha256": "3e2ec850a147606a533c46baba5486d00b861d6a136855ec866b5c3c7be49ea2"
+    },
+    {
+      "path": "controle_pdf_existant/CONTROLE_FICHE_V06_200DPI.json",
+      "size_bytes": 2404,
+      "sha256": "b82c29b9496add0e1b72f5db82c1cc9177a74315f4191dc273288040ac27f0ef"
+    },
+    {
+      "path": "controle_pdf_existant/controle_independant_110dpi_v06.json",
+      "size_bytes": 6070,
+      "sha256": "5a1e51f07570a135a6132c30834fd4a1b270b04a72fd724cf57c793c3415b520"
+    },
+    {
+      "path": "controle_pdf_existant/fiche-1.png",
+      "size_bytes": 237538,
+      "sha256": "106478ee071d54597768c0e1bf70e592c0f7b3674d91c425ab9fc7fcee51438d"
+    },
+    {
+      "path": "controle_pdf_existant/fiche-2.png",
+      "size_bytes": 186529,
+      "sha256": "9f794c92d13224e3f771aac3fc24324a767f4f9d142d9775b8292e8ec62776e0"
+    },
+    {
+      "path": "controle_pdf_existant/fiche-3.png",
+      "size_bytes": 274470,
+      "sha256": "49e0bc01cf6bd9341c85e83117344e09d30d5dd6caeb68b1b6140a7fec18de24"
+    },
+    {
+      "path": "controle_pdf_existant/fiche_v06_200dpi-1.png",
+      "size_bytes": 461992,
+      "sha256": "8cc77ac60cbe106fa3d3f9efe5390e931e8857898e1dbff6c126281c3d4948a3"
+    },
+    {
+      "path": "controle_pdf_existant/fiche_v06_200dpi-2.png",
+      "size_bytes": 355612,
+      "sha256": "8e51bd7e5e8bec303593aa5355fde1265f5d42c8edcd4f1e7afb1f1632ab9d20"
+    },
+    {
+      "path": "controle_pdf_existant/fiche_v06_200dpi-3.png",
+      "size_bytes": 357106,
+      "sha256": "9f6c8ea5aa0f2f53d1975421ed1fd1fda94f3f622dd3a77e8f14f6cc1ea7db91"
+    },
+    {
+      "path": "donnees_compactes/analysis_v04/analysis_results_v04.json",
+      "size_bytes": 75935,
+      "sha256": "07a62612b6f853d64ebb59988df7a957f05ba23b7bb571e7e3f8443b464fe16d"
+    },
+    {
+      "path": "donnees_compactes/analysis_v04/cell_contrasts_v04.csv",
+      "size_bytes": 409744,
+      "sha256": "79b738b457b7ae696998c77b03fbca7e2ec32dca8d22bd4cf41d0b18d5e5eea3"
+    },
+    {
+      "path": "donnees_compactes/campaign_v04/campaign_cells_v04.csv",
+      "size_bytes": 1863964,
+      "sha256": "7f998f71c897eb1f9e1541f593a2600e56a34233f90661990dfcafd17c2f286e"
+    },
+    {
+      "path": "donnees_compactes/campaign_v04/campaign_complete_manifest_v04.json",
+      "size_bytes": 21926,
+      "sha256": "66d568efd70d34ea482ee3d15369d17dc9e2d453d468bc8c88472e78e15e0e6f"
+    },
+    {
+      "path": "donnees_compactes/campaign_v04/campaign_costs_v04.json",
+      "size_bytes": 21578,
+      "sha256": "e4370a918e17e7dd40b01eccaac328e7c9a0200fbdf33c72d0b498fb7a68b568"
+    },
+    {
+      "path": "donnees_compactes/campaign_v04/campaign_reference_v04.json",
+      "size_bytes": 525,
+      "sha256": "6f53f9b2d4d5b152f38a9c52248eb730af3e0e37dbe455f87396a2b2215d5469"
+    },
+    {
+      "path": "donnees_compactes/campaign_v04/campaign_reference_v04.npz",
+      "size_bytes": 986750,
+      "sha256": "f0653dfeab34c380ca753e0187c384de73d0020e0ae1e623f75c884b535de331"
+    },
+    {
+      "path": "donnees_compactes/master_seed_v04.txt",
+      "size_bytes": 66,
+      "sha256": "377629bc2867cf07524825d6f81add3fff8b312d2a3dfe517addb0bc4710c938"
+    },
+    {
+      "path": "donnees_compactes/translations_v04.json",
+      "size_bytes": 10654,
+      "sha256": "e9e215142a265e98529725efb6877580ed327d74911e156e39685ca87de45e26"
+    },
+    {
+      "path": "preparation/AVIS_PERIMETRE_PUBLICATION_v07.md",
+      "size_bytes": 10164,
+      "sha256": "e8b90748b5e8303a0d589a0e0c0213374a16e03873652ca0c0775326a79de2d7"
+    },
+    {
+      "path": "preparation/BIBLIOGRAPHIE_VERIFIEE.md",
+      "size_bytes": 1065,
+      "sha256": "2fbbae7b3d22a1eae079a6b7ace706800320827f2d1e2902b31a0ccd32dbd0fc"
+    },
+    {
+      "path": "preparation/METADONNEES_PROPOSEES.json",
+      "size_bytes": 1853,
+      "sha256": "d9c0822414d0cb20ada80485d7e331429b2218bd67ff87c58ee8763f16019f95"
+    },
+    {
+      "path": "sources_gelees_copie/analysis/analyze_replication_v04.py",
+      "size_bytes": 29742,
+      "sha256": "f77cfac5cde90d51aac948b844dd3aa32cc978945e879d1dae8471072ad305f1"
+    },
+    {
+      "path": "sources_gelees_copie/frozen_manifest_v04.json",
+      "size_bytes": 7192,
+      "sha256": "023b69c57501ed27ccba892b0e2c2afee88fa1621f711d6c057e3dc0a58f2518"
+    },
+    {
+      "path": "sources_gelees_copie/input_manifest_v04.json",
+      "size_bytes": 9485,
+      "sha256": "f3b02748f0ac4d906a0fa254168fd76f1ef6b4bd24b48e1d45ccb032abda6c97"
+    },
+    {
+      "path": "sources_gelees_copie/launcher/campaign_runner_v04.py",
+      "size_bytes": 15183,
+      "sha256": "c451817d189f36906bef3ab6bdca2d89333061fdf4b2093587c25af9998ef693"
+    },
+    {
+      "path": "sources_gelees_copie/launcher/geometry_engines_v04.py",
+      "size_bytes": 23410,
+      "sha256": "18ed0f4903233b9435146a5ee4ccc79044ffc51194e32878ae798f3b1c4aa298"
+    },
+    {
+      "path": "sources_gelees_copie/launcher_state_v04.json",
+      "size_bytes": 1528,
+      "sha256": "8e60d2036725e418af78164fa953e3b7551bd047bb1289dfe77130cefbd1ad26"
+    },
+    {
+      "path": "sources_gelees_copie/pilot/reference_oracle_v04.py",
+      "size_bytes": 29796,
+      "sha256": "890e5cb9e6d8f3317ffe843158f6cbe491f0534743705980630e30ae0e42cf6a"
+    },
+    {
+      "path": "sources_gelees_copie/pilot/reference_qualification_v04.json",
+      "size_bytes": 33082,
+      "sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4"
+    },
+    {
+      "path": "sources_gelees_copie/plan/PLAN_REPLICATION_INDEPENDANTE_v0_2.json",
+      "size_bytes": 10687,
+      "sha256": "855857942275bf9b0f596c4b39128aceaecfd49a909d7a8a502e99403a3a3cf0"
+    },
+    {
+      "path": "sources_gelees_copie/plan/PLAN_REPLICATION_INDEPENDANTE_v0_2.md",
+      "size_bytes": 8376,
+      "sha256": "ec837c1d93fd4be232237cc5c597623a4fc5df9b650b022a28505c6cd7521a29"
+    },
+    {
+      "path": "sources_gelees_copie/protocol_prepare_v04.json",
+      "size_bytes": 5773,
+      "sha256": "2cba28de3f546342e5eb091774066f8fe74877126e50d4e933e7c09683a8d575"
+    },
+    {
+      "path": "sources_historiques/DYN-Preparation_Replication_Independante_v0_4.zip",
+      "size_bytes": 7290136,
+      "sha256": "22c2aa3efe02113feb452c48d9a5684961bfdf36a49367d640d0be2df8a28ad9"
+    },
+    {
+      "path": "sources_historiques/_execute_replication_v0_5_20261027.zip",
+      "size_bytes": 31186,
+      "sha256": "a883fcd2776a4f3b70e0992a5312c4a2a49cf4860dfa483f35539c50e0c32378"
+    },
+    {
+      "path": "synthese_v06/DECISION_RESULTAT_v0_6.json",
+      "size_bytes": 14851,
+      "sha256": "c126fa30f9157b75bf821dfffa69d458ab199c97d215a0ade337cba69c3ef8bf"
+    },
+    {
+      "path": "synthese_v06/DYN-Fiche_Replication_Prospective_64_v0_6.md",
+      "size_bytes": 7679,
+      "sha256": "17911e4450f6e568c019b4f0844f28874c0a6b19a43fb22922f4c01843cfb16d"
+    },
+    {
+      "path": "synthese_v06/DYN-Fiche_Replication_Prospective_64_v0_6.pdf",
+      "size_bytes": 142621,
+      "sha256": "6249de781857c9a97bb181faee9f21d52d66191d47025a4a775c0748de871084"
+    },
+    {
+      "path": "synthese_v06/contrastes_R512.png",
+      "size_bytes": 80982,
+      "sha256": "59c5e63299952ab710396d396431764d5839a965f4c32c0e447debd932002df4"
+    },
+    {
+      "path": "synthese_v06/evidence/geometry/audit_saved_replication_geometry.py",
+      "size_bytes": 11518,
+      "sha256": "7bf9bdd118d5236790013b6b7def41491a0096bad5d91e43ade2112f1d719ad4"
+    },
+    {
+      "path": "synthese_v06/evidence/geometry/bilan_geometry_replication_v05.json",
+      "size_bytes": 8305,
+      "sha256": "025cd15c581e9fd7875050e864daa320cda8bc96b6be88aaf9e39f7492160a57"
+    },
+    {
+      "path": "synthese_v06/evidence/primary/bilan_primary_replication_v05.json",
+      "size_bytes": 25226,
+      "sha256": "66f68d46486b01003df0bbb93abc1f4eef619856f9e56251f68489f12823782f"
+    },
+    {
+      "path": "synthese_v06/evidence/primary/recompose_primary_replication_v05.py",
+      "size_bytes": 13523,
+      "sha256": "7dcc9dbea01e6f17866e0adefd1eff42b87a3e5bf53f58f7d3fbb80562ccec3e"
+    },
+    {
+      "path": "synthese_v06/evidence/provenance/check_provenance_v05.py",
+      "size_bytes": 12016,
+      "sha256": "eda56e762c0c5fec7504ad1fb60ceca13e8797bb86b46749054720e5bce7901e"
+    },
+    {
+      "path": "synthese_v06/evidence/provenance/provenance_results_v05.json",
+      "size_bytes": 5703,
+      "sha256": "e5fbcd4358dbafc8f2a16ed7e510d552efa143676dc34c42108cffd45f3fd687"
+    },
+    {
+      "path": "synthese_v06/evidence/secondary/recompose_secondary_v05.py",
+      "size_bytes": 12339,
+      "sha256": "a398134372225e20449ea6e0e2b26d00d5319bdf613097d4ed560775b28250a8"
+    },
+    {
+      "path": "synthese_v06/evidence/secondary/secondary_cells_v05.csv",
+      "size_bytes": 1675,
+      "sha256": "b4ca356e4e797a3da888e370e19ddffb364815294ad7b53e893a69cd415439e2"
+    },
+    {
+      "path": "synthese_v06/evidence/secondary/secondary_contrasts_v05.png",
+      "size_bytes": 194904,
+      "sha256": "ef61f032cad831648faac368d31ec0931caa690250d5118633f3d7eab9c7df05"
+    },
+    {
+      "path": "synthese_v06/evidence/secondary/secondary_recomposition_v05.json",
+      "size_bytes": 34319,
+      "sha256": "2c668ea060b3702fa2c17a77fd1a24a98bb8292c28826235d3319dae2cb100a3"
+    },
+    {
+      "path": "verification_portable/verify_publication_data.py",
+      "size_bytes": 16439,
+      "sha256": "14242856116231815c68f3d654f354166c746037927dd6f7a6645e533e55a3a8"
+    },
+    {
+      "path": "verification_portable/verify_publication_data_result.json",
+      "size_bytes": 30768,
+      "sha256": "a5732493567a73778478234c293216393c762a7a3f1a4bd6a9ed61d554724e08"
+    }
+  ],
+  "scope": "Fichiers du dossier de transmission; grande archive de production externe décrite dans SOURCES_ET_DEPENDANCES.json. Ce manifeste est distinct du gel scientifique."
+}

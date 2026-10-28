@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "control_date": "2026-10-28",
+  "protocol_source": "PROTOCOLE_CONTROLE_PDF.md (transmission v0.7)",
+  "control_scope": "Tous les PDF inclus dans le paquet public",
+  "tools": {
+    "compiler": "MiKTeX-pdfTeX 4.23 (MiKTeX 25.12; producteur PDF pdfTeX-1.40.28)",
+    "bibliography": "MiKTeX-BibTeX 4.2 (MiKTeX 25.12)",
+    "inspection": "Poppler pdfinfo/pdffonts/pdftoppm/pdftotext 24.04.0",
+    "rendering": "pdftoppm PNG"
+  },
+  "pdfs": [
+    {
+      "role": "manuscrit_autonome",
+      "path": "output/pdf/DYN-Note_Experimentale_Grid_Peeling_v0_1.pdf",
+      "sha256": "6a66e6a69e4fcf9c8ff21ea437c7d1ad0d2cf3c2cf2ca716e1574032ba197fbd",
+      "size_bytes": 594872,
+      "page_count": 10,
+      "page_size": "A4 (595.276 x 841.89 pt)",
+      "pdf_version": "1.5",
+      "engine": "pdfLaTeX, MiKTeX-pdfTeX 4.23; BibTeX 4.2",
+      "final_compilation_log": {
+        "overfull_boxes": 0,
+        "underfull_boxes": 0,
+        "undefined_references": 0,
+        "undefined_citations": 0,
+        "latex_or_package_warnings": 0,
+        "note": "L'avis général MiKTeX invitant à vérifier les mises à jour n'est pas un avertissement du document."
+      },
+      "fonts": {
+        "families": [
+          "LMRoman12-Bold",
+          "LMRoman12-Regular",
+          "LMRoman10-Regular",
+          "LMRoman10-Bold",
+          "LMRoman10-Italic",
+          "LMRoman8-Regular",
+          "LMRoman8-Bold",
+          "LMRoman7-Regular",
+          "LMMono10-Regular",
+          "LMMonoLt10-Bold",
+          "LMMathItalic10-Regular",
+          "LMMathItalic8-Regular",
+          "LMMathItalic7-Regular",
+          "LMMathSymbols10-Regular",
+          "LMMathSymbols8-Regular",
+          "LMMathSymbols7-Regular",
+          "LMMathExtension10-Regular"
+        ],
+        "all_embedded": true,
+        "all_subset": true,
+        "all_unicode_mapped": true
+      },
+      "text_mapping_check": {
+        "status": "PASS",
+        "replacement_character_found": false,
+        "verified_strings": [
+          "10.5281/zenodo.23728565",
+          "10.1080/10586458.2018.1466379",
+          "10.4230/LIPIcs.SoCG.2024.76"
+        ]
+      },
+      "rendering_and_visual_inspection": {
+        "render_200_dpi_directory": "tmp/pdfs/final_manuscript_v2_200dpi",
+        "pages_rendered_200_dpi": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "pages_examined_individually_200_dpi": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "render_300_dpi_directory": "tmp/pdfs/final_manuscript_v2_300dpi",
+        "pages_rendered_300_dpi": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "pages_examined_in_detail_300_dpi": [4, 5, 7, 9, 10],
+        "detail_targets": [
+          "équations et indices/exposants",
+          "tableaux principal et secondaires",
+          "figure et légendes",
+          "bibliographie et DOI",
+          "annexe des empreintes"
+        ]
+      },
+      "anomalies_detected_before_final_version_and_corrections": [
+        "Débordements de longues empreintes SHA-256 : composition et césure corrigées.",
+        "Hauteur d'en-tête et définitions trop larges : réglages de mise en page corrigés.",
+        "Liste des dépendances trop dense : composition corrigée.",
+        "Collision du nom de macro DOI avec la bibliographie : macro renommée et références recompilées.",
+        "Figure secondaire repoussée après l'annexe : placement corrigé."
+      ],
+      "anomalies_in_final_pdf": [],
+      "layout_verdict": "PASS",
+      "scientific_reservations": [
+        "La borne Student est nominale et approchée.",
+        "Les budgets numériques sont empiriques, non certifiés.",
+        "La portée reste une forme initiale, deux rayons, trois orientations, trois contractions et une perte sur a3."
+      ]
+    },
+    {
+      "role": "fiche_de_synthese_historique_v0.6",
+      "path": "evidence/v0.6/DYN-Fiche_Replication_Prospective_64_v0_6.pdf",
+      "sha256": "6249de781857c9a97bb181faee9f21d52d66191d47025a4a775c0748de871084",
+      "size_bytes": 142621,
+      "page_count": 3,
+      "page_size": "A4 (595.276 x 841.89 pt)",
+      "pdf_version": "1.4",
+      "engine": "ReportLab PDF Library (version non inscrite dans le PDF)",
+      "fonts": {
+        "entries": [
+          {
+            "name": "Helvetica",
+            "type": "Type 1 / WinAnsi",
+            "embedded": false,
+            "subset": false,
+            "unicode_mapped": false,
+            "note": "Police de base PDF substituable ; réserve de portabilité consignée."
+          },
+          {
+            "name": "DejaVuSans",
+            "type": "TrueType / WinAnsi",
+            "embedded": true,
+            "subset": true,
+            "unicode_mapped": true
+          },
+          {
+            "name": "DejaVuSans-Bold",
+            "type": "TrueType / WinAnsi",
+            "embedded": true,
+            "subset": true,
+            "unicode_mapped": true
+          }
+        ],
+        "diagnostic_note": "pdffonts a signalé l'absence de polices d'affichage locales pour plusieurs alias ; le rendu des trois pages et l'extraction des glyphes scientifiques ont néanmoins été contrôlés avec succès."
+      },
+      "text_mapping_check": {
+        "status": "PASS_WITH_FONT_RESERVATION",
+        "replacement_character_found": false,
+        "verified_glyphs": ["π", "ρ", "φ", "β", "θ", "×", "₀", "₃"]
+      },
+      "rendering_and_visual_inspection": {
+        "render_200_dpi_directory": "tmp/pdfs/final_fiche_200dpi",
+        "pages_rendered_200_dpi": [1, 2, 3],
+        "pages_examined_individually_200_dpi": [1, 2, 3],
+        "render_300_dpi_directory": "tmp/pdfs/final_fiche_300dpi",
+        "pages_rendered_300_dpi": [1, 2, 3],
+        "pages_examined_in_detail_300_dpi": [1, 2, 3],
+        "detail_targets": ["formules", "tableaux", "carte thermique", "légende", "glyphes grecs", "pieds de page"]
+      },
+      "anomalies_detected": [
+        "Helvetica n'est pas incorporée et n'a pas de table ToUnicode ; aucune collision, découpe, superposition, duplication de caractère ou perte de glyphe n'a été observée."
+      ],
+      "corrections": ["Aucune : pièce historique v0.6 conservée octet pour octet."],
+      "layout_verdict": "PASS_WITH_FONT_RESERVATION",
+      "scientific_reservations": [
+        "La fiche synthétise les contrôles v0.6 ; elle ne remplace pas le manuscrit autonome v0.1.",
+        "Le contrôle exhaustif de 30 863 couches porte sur huit lignes seulement.",
+        "Les budgets numériques restent empiriques."
+      ]
+    }
+  ],
+  "overall_layout_verdict": "PASS_WITH_DOCUMENTED_FONT_RESERVATION_ON_HISTORICAL_V0.6_SHEET",
+  "validity_condition": "Le contrôle ne couvre que les fichiers ayant exactement les empreintes SHA-256 consignées. Toute modification impose une nouvelle compilation ou un nouveau contrôle, selon le cas."
+}

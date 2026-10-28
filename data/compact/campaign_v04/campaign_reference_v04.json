@@ -1,0 +1,11 @@
+{
+  "status": "EVALUATED_BY_FROZEN_ORACLE",
+  "q_count": 1152,
+  "q_min": 0.8496224310092052,
+  "q_max": 0.949869871262966,
+  "input_sha256": "2eee3b18fe4b579771356065ddad05f60c2bcd1a0974a12e92b17fee334ca213",
+  "output_sha256": "f0653dfeab34c380ca753e0187c384de73d0020e0ae1e623f75c884b535de331",
+  "oracle_source_sha256": "890e5cb9e6d8f3317ffe843158f6cbe491f0534743705980630e30ae0e42cf6a",
+  "qualification_sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4",
+  "no_parameter_fit": true
+}

@@ -1,0 +1,417 @@
+{
+  "status": "COMPLETE_64_ROWS",
+  "scientific_collection_executed": true,
+  "confirmatory_analysis_executed": false,
+  "translation_manifest_path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\translations_v04.json",
+  "translation_manifest_sha256": "e9e215142a265e98529725efb6877580ed327d74911e156e39685ca87de45e26",
+  "frozen_manifest_sha256": "023b69c57501ed27ccba892b0e2c2afee88fa1621f711d6c057e3dc0a58f2518",
+  "row_count": 64,
+  "finite_grid_cell_count_before_beta_expansion": 1152,
+  "expanded_cell_count": 8064,
+  "second_engine_row_indices_zero_based": [
+    0,
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56
+  ],
+  "geometry_divergence_count": 0,
+  "oracle_qualification_sha256": "0a203c68164b411548732f832e742c5a65329c8f9aa7c72ec4b003848a2c9ad4",
+  "cells_path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\campaign_cells_v04.csv",
+  "cells_sha256": "7f998f71c897eb1f9e1541f593a2600e56a34233f90661990dfcafd17c2f286e",
+  "outputs": [
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_00_main.npz",
+      "sha256": "6c51f3fa04511578471babcd9e896fa7d7fbe203a7f692ecbd28a175e5f7d271",
+      "bytes": 3207671
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_00_quickhull_check.json",
+      "sha256": "f6695dfab47e63c6d7b7c1530562abd30a280b5ff917d0b2377075dcccb0680f",
+      "bytes": 1069
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_01_main.npz",
+      "sha256": "97b8e6fa5ad2d3fd79a4becad05beaf894faa45fa5d37d243282c01bf66bbc7f",
+      "bytes": 3192336
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_02_main.npz",
+      "sha256": "4fd138e1f0b8906e256cd493e2883bc22af35e7909affbe6b62be9b10ca16f28",
+      "bytes": 3204433
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_03_main.npz",
+      "sha256": "b9d560af725f5ef224f3fbd3bb3ea6f4af572be794faaff2851fe332cc8ce576",
+      "bytes": 3203942
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_04_main.npz",
+      "sha256": "59a010e149d137ae8c8b4cb9115abc24bd4490172cb7b200fde43e02da43e170",
+      "bytes": 3200193
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_05_main.npz",
+      "sha256": "6d19f45160ae461bbd6ed0c1e0ead0a5bb3dcb0b68a305b74ceb3bc7e72f2c0e",
+      "bytes": 3204437
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_06_main.npz",
+      "sha256": "5ea2f87456483185c564c8fef66ff3f704e4bfc1e088f836d8917db01f8cedaa",
+      "bytes": 3194383
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_07_main.npz",
+      "sha256": "969d56bfb914ff11d3adea69adc6b6686acfe15631aae6b9add9261a77520452",
+      "bytes": 3207636
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_08_main.npz",
+      "sha256": "653a3a8ecba770d8f71c8f2b38c03f7d6b0596614fed91234cf7ed3463ab8c60",
+      "bytes": 3198967
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_08_quickhull_check.json",
+      "sha256": "fe40a68b540e330cd8c238f1b4b807f3d507e68cb5057d61329dacfe3e50f75d",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_09_main.npz",
+      "sha256": "bedce600c6e5b02b0c6b3811664e406a1e5c4be94542cbbd5a57b1470e2e0bea",
+      "bytes": 3203121
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_10_main.npz",
+      "sha256": "9bfd553b92f7130f72781f559c167c7c1acd13fe1705022e11daed64e899e76f",
+      "bytes": 3199760
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_11_main.npz",
+      "sha256": "70f819767be61d74b2f7f1e2635b714b4b3447dfc1f4a66a4df1d85ad4ac98ad",
+      "bytes": 3198919
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_12_main.npz",
+      "sha256": "beab0c4f51952543f37b9c01083488adb1f6b267b1d81ddb718d5840121c4d04",
+      "bytes": 3205798
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_13_main.npz",
+      "sha256": "6f7afb6e3378face8e731a9ef6fb8a6b36947f94fce75d6a804545ee8ba2ea0d",
+      "bytes": 3202392
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_14_main.npz",
+      "sha256": "628b755f41f0a4e01ae3e35b056a2fc4499474581d3c977d8408d89b4ff32454",
+      "bytes": 3199943
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_15_main.npz",
+      "sha256": "3b5080d207564ebf3f2c30a924852e46f65546750f6be337004175b0bfd5c1ac",
+      "bytes": 3202554
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_16_main.npz",
+      "sha256": "d1b8f814a8f309dc2787024fab1e0055a0d5451e59b55e33a33bdd292a365b8e",
+      "bytes": 3197933
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_16_quickhull_check.json",
+      "sha256": "c8c5f27b4c9e24b94d2555bed1091c93382bd5766a59fb8d290659d79b39e069",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_17_main.npz",
+      "sha256": "2a3b5714411610adc1f7c26393e9dd2db40177976b4b8dc4fd462cd84f90d094",
+      "bytes": 3209510
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_18_main.npz",
+      "sha256": "209715782704fbd5e6004ea0001b0a84a82c8f9077944750a1d62eb467c2ece7",
+      "bytes": 3209382
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_19_main.npz",
+      "sha256": "9ace7dd897767656b5ed33ed8cc8260785990892eae6c618ff4d52ae41a64875",
+      "bytes": 3209419
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_20_main.npz",
+      "sha256": "eafca70542f885a6755238ac0e1f02ead94377642337bc1d82cf0aa5030af566",
+      "bytes": 3197917
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_21_main.npz",
+      "sha256": "d26fd4a5cb4018c196b070f5a0119f7d0e01c9ea6ec8f407a2e20b7b8b2b9685",
+      "bytes": 3199712
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_22_main.npz",
+      "sha256": "9d820da95e83a2d776b0e8fc9f9a1540c77af993507e3026b446d9a0aef8ec40",
+      "bytes": 3213406
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_23_main.npz",
+      "sha256": "465e5f7b8ce01e368a15e52f5ce2dc307a63e7b227a98af7482685598000b943",
+      "bytes": 3195172
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_24_main.npz",
+      "sha256": "c066cb741e0f845420a6a921d6401af999413f644f2699c3d023dd229ec8c496",
+      "bytes": 3212617
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_24_quickhull_check.json",
+      "sha256": "4dd6c013e790e032b0f9eada10866c4e3d07744019054cbabcd4b3957e9be7fb",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_25_main.npz",
+      "sha256": "535e2680d9714573961fe54d43947196920bd1e7a4e89c47c4a634ac7476d77b",
+      "bytes": 3201108
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_26_main.npz",
+      "sha256": "57d866fe5427b0bfe216f94091712668e3e4803e05cc739a48fd88c1d55befc3",
+      "bytes": 3199243
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_27_main.npz",
+      "sha256": "05ef9e3dafd8378739dca5b39981d4b7e1ae73330d89ee34fe81cb80fa0463ef",
+      "bytes": 3205335
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_28_main.npz",
+      "sha256": "4cf33ad7a7d0a6dc5df855f149f4ef7e685aa59fef19cc6f4ee1fcf95d5b9650",
+      "bytes": 3202063
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_29_main.npz",
+      "sha256": "2d65b6084eb4826151ad1c5e287c29b933777110623f9e725e6455ad6a9d1812",
+      "bytes": 3209158
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_30_main.npz",
+      "sha256": "59c0a6ceb00ee3055f629386e332f4d59c647107dc64b4c6bdd7445218e1ecde",
+      "bytes": 3195893
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_31_main.npz",
+      "sha256": "212ec8fda5bb7b18f7f3d4e3c851f510f887c0fb738fca8963535d617c9820ad",
+      "bytes": 3203678
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_32_main.npz",
+      "sha256": "06afbf5208cc8b9a666de6f0c77935da53c4a582c726585ac03c466ef12890cf",
+      "bytes": 3214032
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_32_quickhull_check.json",
+      "sha256": "169f42508d5966fb3de7b70244e4e2426cca19b5e858bb248c3f6cbfa457a016",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_33_main.npz",
+      "sha256": "42357836a48ae3d55116d4bc4ff6506bc205d84b2975efd83573ee9dfdc1b311",
+      "bytes": 3193564
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_34_main.npz",
+      "sha256": "8d9b686769a275fa98354f033513d81926bb41a35fd38c4495494adc210bacdc",
+      "bytes": 3205790
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_35_main.npz",
+      "sha256": "6d430ab44d0b69a488c754a4f27f087679c8cd9ed9494b7911fb0f1c5d488a03",
+      "bytes": 3207890
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_36_main.npz",
+      "sha256": "98e7d7c149796beba70a8e7786823703f27616312a66794f024b5571bb492d9a",
+      "bytes": 3200570
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_37_main.npz",
+      "sha256": "a04ceb1b19564931d6ecf4b9e14098bee85304f439df0fdb95861b3225248f63",
+      "bytes": 3213852
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_38_main.npz",
+      "sha256": "005cc72eee51baf6615f114cfc18b24d965dee92e7faa7c2aec8ce1ef8b82d2e",
+      "bytes": 3203710
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_39_main.npz",
+      "sha256": "177cd78ea926f27fbc73b55f710d3828563bd0bd804d0ee7efbbe77e2a31316c",
+      "bytes": 3205650
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_40_main.npz",
+      "sha256": "03aa417e2524667d6a973434c6800df5cc2961710265f03b2372bbca43784f7b",
+      "bytes": 3203123
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_40_quickhull_check.json",
+      "sha256": "054736a622c67ea5dac2aa22e548632965a9c42f1ed06a19c7377446a65c38aa",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_41_main.npz",
+      "sha256": "56e2a53f2db6ae28eb76d758f2c989ba9a6e369e789894ca1a3001f7df13270d",
+      "bytes": 3210161
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_42_main.npz",
+      "sha256": "0ea9b6d5b3f9fc9982010c349ac9e1f1fddd33e311e283381ff58a8413519287",
+      "bytes": 3205825
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_43_main.npz",
+      "sha256": "0f27ee11d4f43bcf2fb2099d5ce49b64414e27ba5787a10b5c8dda18b7fabaf3",
+      "bytes": 3202252
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_44_main.npz",
+      "sha256": "3de5e7ad08145a841e2a06c290f2f8f6314c9cfdc1ed9771c6dbfb61e9354a69",
+      "bytes": 3195863
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_45_main.npz",
+      "sha256": "811e87af7dfb47a92667f4894a03bacb2e85d9b45ce57588a7db99b11ae06bf4",
+      "bytes": 3199574
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_46_main.npz",
+      "sha256": "82bcbdd8a50fa2b8975f4fb93409a39a4b5ac03ecc6c5110ec05f5cc36a84132",
+      "bytes": 3208994
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_47_main.npz",
+      "sha256": "408b4c7d770fb45cafb9244ad834d4daaf63721d03961a5be70f82c9480a4d8b",
+      "bytes": 3204472
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_48_main.npz",
+      "sha256": "f944148ebfc72f55cd243e0d695d0a1125bf3b1d2c0cf6b9d107a514c590b88b",
+      "bytes": 3202571
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_48_quickhull_check.json",
+      "sha256": "3afd8d91fef13606a6bc66e70fd88a220e06a2e583a1e4194a6f4850e641af55",
+      "bytes": 1070
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_49_main.npz",
+      "sha256": "8a8cdd9c7f945098c41f29b4b824bd17f393ade0db0f86d76114e657a52cc148",
+      "bytes": 3202725
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_50_main.npz",
+      "sha256": "617cab23fca27c33ad8d3b6b4d03d9257d0f3c422a928edf6eb7f704f5ebde1b",
+      "bytes": 3207591
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_51_main.npz",
+      "sha256": "c4f081fbdc31023ba9cc988df551666ad03e4ab69410aed670da950cbfabd8f8",
+      "bytes": 3194695
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_52_main.npz",
+      "sha256": "f210936c3eb940ab23ae2015fbf869e86af14638dce7f0240fc32b1baf9e2113",
+      "bytes": 3205244
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_53_main.npz",
+      "sha256": "d9f23da710bc7a0ea9f790bc898f8c08429fc0d7b469a053031736b8759cc5dc",
+      "bytes": 3191095
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_54_main.npz",
+      "sha256": "6492fce386832b0e33751c15e90ef5bc2fe61d548b7b6857f851ad33cb98647c",
+      "bytes": 3193790
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_55_main.npz",
+      "sha256": "cb7d37e10b0d530581c19192560910f82b1aba22cda051e119e9348bb45009bc",
+      "bytes": 3209532
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_56_main.npz",
+      "sha256": "5df5a362767c3b3df10e27ce626fd4ce2c82a086e87b0f0ba288018c2cd61d24",
+      "bytes": 3203227
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_56_quickhull_check.json",
+      "sha256": "3438edd67a3dd6717da0bf1057702dae415e3fb9c0888b598dce0eecb33b2082",
+      "bytes": 1069
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_57_main.npz",
+      "sha256": "6334879fdb32083b35eed94916789d9f6ea30ff85caf0e0e1888d4ed646e8c69",
+      "bytes": 3205163
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_58_main.npz",
+      "sha256": "fee5f1e7c306151c8c060155d3c8e67bbd6d6544548e2a7c329ba4e42c21e51e",
+      "bytes": 3213626
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_59_main.npz",
+      "sha256": "2081cfc6886f165d0ea07958b1035c0c3f6ba90e51f11c0b132b3d40aa225651",
+      "bytes": 3194645
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_60_main.npz",
+      "sha256": "a710e8385fad9fe794c20a38bf9ef98404ef43e74830a607fa11f76e3be11e5e",
+      "bytes": 3200325
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_61_main.npz",
+      "sha256": "c9ad002a18e8e853d6b50ba6b0433f4afecac1006d4ec08adac5bb081554372a",
+      "bytes": 3203949
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_62_main.npz",
+      "sha256": "3e0d0f945ddc705f4a9e8d6691c8dea3bfc14eb7390e4e1adc1895c190b2a4dc",
+      "bytes": 3195532
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\rows\\row_63_main.npz",
+      "sha256": "3cff1f9976ba694df7c1789584f5c0be386f4cffa0315236d0982abb1369887e",
+      "bytes": 3202932
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\oracle_q_input_v04.json",
+      "sha256": "2eee3b18fe4b579771356065ddad05f60c2bcd1a0974a12e92b17fee334ca213",
+      "bytes": 28708
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\campaign_reference_v04.npz",
+      "sha256": "f0653dfeab34c380ca753e0187c384de73d0020e0ae1e623f75c884b535de331",
+      "bytes": 986750
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\campaign_reference_v04.json",
+      "sha256": "6f53f9b2d4d5b152f38a9c52248eb730af3e0e37dbe455f87396a2b2215d5469",
+      "bytes": 525
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\campaign_cells_v04.csv",
+      "sha256": "7f998f71c897eb1f9e1541f593a2600e56a34233f90661990dfcafd17c2f286e",
+      "bytes": 1863964
+    },
+    {
+      "path": "C:\\Users\\dynagenese\\Desktop\\pi utile et efficace\\_prepare_replication_v0_4_20261027\\campaign_v04\\campaign_costs_v04.json",
+      "sha256": "e4370a918e17e7dd40b01eccaac328e7c9a0200fbdf33c72d0b498fb7a68b568",
+      "bytes": 21578
+    }
+  ],
+  "environment": {
+    "python": "3.14.5",
+    "numpy": "2.3.5",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}
