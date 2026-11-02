@@ -1,0 +1,188 @@
+{
+  "status": "PASS_INDEPENDENT_CONDITIONAL_MODE3_AUDIT",
+  "quadrature_target_count": 24,
+  "quadrature_polygon_count": 48,
+  "max_independent_c0_error": 2.220446049250313e-16,
+  "max_independent_c3_error": 1.2831585522213824e-16,
+  "max_independent_target_a3_error": 1.459338526083329e-16,
+  "max_normalized_increment_identity_error": 6.049510258080895e-18,
+  "max_increment_vs_prediction_error": 1.6824782576099365e-16,
+  "max_q_absolute_definition_error": 1.1102230246251565e-16,
+  "independent_predicted_polygon_hash_checks": 1152,
+  "integer_geometry_mismatches": 0,
+  "future_data_review": "The forecast phase uses current polygon, target absolute contraction, physical radius/translation/orientation, and the already saved affine reference. Benchmark future fields are extracted separately and are not consumed until after the forecast record seal. The retrospective choice of lower bracket itself uses saved trajectory metadata.",
+  "proof_review": "Column endpoints after removal of strict vertices generate exactly the convex hull of the surviving saturated integer set. Cross products, intersections, rounding, and hull predicates use Python integers. Saturation is a required property of the input current state.",
+  "scientific_scope": "Conditional one-step exact microscopic map, algebraically equivalent to one peeling step. It is not a prediction of initial-to-target hitting time, not a free-running forecast from initial shape, and not evidence of a new autonomous macroscopic closure. The shared affine reference is not independently validated by this audit.",
+  "blocking_findings": [],
+  "records": [
+    {
+      "index": 0,
+      "row": 0,
+      "trajectory": 0,
+      "q_historical": 0.95,
+      "a3_abs_error": 1.0802179423012788e-16
+    },
+    {
+      "index": 4,
+      "row": 0,
+      "trajectory": 1,
+      "q_historical": 0.9,
+      "a3_abs_error": 7.725701285124278e-17
+    },
+    {
+      "index": 8,
+      "row": 0,
+      "trajectory": 2,
+      "q_historical": 0.85,
+      "a3_abs_error": 3.4073382025987145e-17
+    },
+    {
+      "index": 9,
+      "row": 0,
+      "trajectory": 3,
+      "q_historical": 0.95,
+      "a3_abs_error": 4.089261280920542e-17
+    },
+    {
+      "index": 13,
+      "row": 0,
+      "trajectory": 4,
+      "q_historical": 0.9,
+      "a3_abs_error": 7.745622955305565e-17
+    },
+    {
+      "index": 17,
+      "row": 0,
+      "trajectory": 5,
+      "q_historical": 0.85,
+      "a3_abs_error": 3.0704118604098724e-17
+    },
+    {
+      "index": 145,
+      "row": 8,
+      "trajectory": 0,
+      "q_historical": 0.9,
+      "a3_abs_error": 1.179327558308609e-16
+    },
+    {
+      "index": 149,
+      "row": 8,
+      "trajectory": 1,
+      "q_historical": 0.85,
+      "a3_abs_error": 4.010232861188797e-17
+    },
+    {
+      "index": 150,
+      "row": 8,
+      "trajectory": 2,
+      "q_historical": 0.95,
+      "a3_abs_error": 5.904415719303107e-17
+    },
+    {
+      "index": 154,
+      "row": 8,
+      "trajectory": 3,
+      "q_historical": 0.9,
+      "a3_abs_error": 5.600486085073326e-17
+    },
+    {
+      "index": 158,
+      "row": 8,
+      "trajectory": 4,
+      "q_historical": 0.85,
+      "a3_abs_error": 5.809421934029971e-17
+    },
+    {
+      "index": 159,
+      "row": 8,
+      "trajectory": 5,
+      "q_historical": 0.95,
+      "a3_abs_error": 8.281229883319527e-17
+    },
+    {
+      "index": 290,
+      "row": 16,
+      "trajectory": 0,
+      "q_historical": 0.85,
+      "a3_abs_error": 1.459338526083329e-16
+    },
+    {
+      "index": 291,
+      "row": 16,
+      "trajectory": 1,
+      "q_historical": 0.95,
+      "a3_abs_error": 7.622130677871667e-17
+    },
+    {
+      "index": 295,
+      "row": 16,
+      "trajectory": 2,
+      "q_historical": 0.9,
+      "a3_abs_error": 4.166135518010329e-17
+    },
+    {
+      "index": 299,
+      "row": 16,
+      "trajectory": 3,
+      "q_historical": 0.85,
+      "a3_abs_error": 5.054736138967314e-17
+    },
+    {
+      "index": 300,
+      "row": 16,
+      "trajectory": 4,
+      "q_historical": 0.95,
+      "a3_abs_error": 6.679233181353685e-17
+    },
+    {
+      "index": 304,
+      "row": 16,
+      "trajectory": 5,
+      "q_historical": 0.9,
+      "a3_abs_error": 7.395460221634458e-17
+    },
+    {
+      "index": 1134,
+      "row": 63,
+      "trajectory": 0,
+      "q_historical": 0.95,
+      "a3_abs_error": 1.0735527313439804e-16
+    },
+    {
+      "index": 1138,
+      "row": 63,
+      "trajectory": 1,
+      "q_historical": 0.9,
+      "a3_abs_error": 4.163932751992682e-17
+    },
+    {
+      "index": 1142,
+      "row": 63,
+      "trajectory": 2,
+      "q_historical": 0.85,
+      "a3_abs_error": 5.4752837433811713e-17
+    },
+    {
+      "index": 1143,
+      "row": 63,
+      "trajectory": 3,
+      "q_historical": 0.95,
+      "a3_abs_error": 1.4357290710369675e-17
+    },
+    {
+      "index": 1147,
+      "row": 63,
+      "trajectory": 4,
+      "q_historical": 0.9,
+      "a3_abs_error": 3.8813869927510717e-17
+    },
+    {
+      "index": 1151,
+      "row": 63,
+      "trajectory": 5,
+      "q_historical": 0.85,
+      "a3_abs_error": 6.671238074391883e-17
+    }
+  ],
+  "documentary_qualification": "The original extraction script hashes the forecast records in memory before opening the benchmark for validation, then writes the final report afterward. This is code-level separation, not an independently timestamped precommitment; a portable replay should persist its forecast file before benchmark loading."
+}

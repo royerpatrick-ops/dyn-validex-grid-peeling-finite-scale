@@ -1,0 +1,82 @@
+{
+  "status": "PASS_FINAL_PDF_LAYOUT",
+  "date": "2026-11-02",
+  "pdf_path": "public/manuscript/note_pi4.pdf",
+  "pdf_sha256": "f3ce473a4709f87503a7e115a26eb7d8e710d51a6423a4013296f3124ffbd9f5",
+  "pdf_bytes": 537768,
+  "page_count": 8,
+  "engine": "pdfTeX 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian)",
+  "all_fonts_embedded": true,
+  "unicode_font_maps_present": true,
+  "pages": [
+    {
+      "page": 1,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "f303f0c39a996d539ff67025eb8b7e81ee35ebef44f5685f89e9257c05d36a40",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 2,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "dd73c39d827c5ff5f2d7738b02a9eba61b0dd1bd19860f292a4f905baf555c7d",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 3,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "d522a36916478479ab653e80077c5386ef8b3bd8a81a0d361a590d7519a5eec3",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 4,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "2a17faeb4ac4168e2f2deead4e3d22cb1573a4d1dec4140350a2f2e0540e5768",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 5,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "6e28f76e7c1a4e2ef95eb50fe5d516ae9f5c37f5dda8d65ea24f52b170f4a4a7",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 6,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "b688ae9bdcfb43651e3f33681fd746ace0732c502d800f83a972abca64376fdf",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 7,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "899923535c7358a036bd68583ccee07b20e1c21976426182e4b0654327f7dd08",
+      "layout_verdict": "PASS"
+    },
+    {
+      "page": 8,
+      "render_dpi": 200,
+      "visually_examined": true,
+      "render_sha256": "a45dc215ce9c55e588d7f80b553169b99c0d395674814359e7ba1f4ce057b311",
+      "layout_verdict": "PASS"
+    }
+  ],
+  "checks": [
+    "Every page rendered at 200 dpi and visually examined individually.",
+    "Equations, tables, superscripts, captions and references readable without overlap or clipping.",
+    "Final changed pages 1 and 3 re-examined; other final renders pixel-identical to previously examined pages.",
+    "No overfull boxes or undefined references in final compilation."
+  ],
+  "corrections": [
+    "Explicitly report 18 additional symmetry-control trajectories, distinct from saved-data analyses.",
+    "Clarify saturation is needed for polygon-only evaluation, not the abstract point-count proof.",
+    "Display four decimals in cancellation table to preserve visible rounded additivity."
+  ],
+  "scientific_review": "AI-assisted consistency and mathematical review; no external human expertise claimed.",
+  "publication_status": "PREPARED_NOT_PUBLISHED"
+}

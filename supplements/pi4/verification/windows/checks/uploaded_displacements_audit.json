@@ -1,0 +1,203 @@
+{
+  "comparison": {
+    "aligned_pair_groups.csv": {
+      "rows": 24,
+      "byte_identical": true,
+      "different_cells": 0,
+      "numeric_different_cells": 0,
+      "max_abs_difference": 0.0,
+      "column_maxima": {},
+      "upload_sha256": "e16b3bcfe7e3bb836d599637d291dab4c64e71d9c2e10212727259de6c81a5c2",
+      "baseline_sha256": "e16b3bcfe7e3bb836d599637d291dab4c64e71d9c2e10212727259de6c81a5c2"
+    },
+    "aligned_pair_marks.csv": {
+      "rows": 1536,
+      "byte_identical": true,
+      "different_cells": 0,
+      "numeric_different_cells": 0,
+      "max_abs_difference": 0.0,
+      "column_maxima": {},
+      "upload_sha256": "5c57ee2de231c810940128ea97765ec8d3e53fbc2c3ce74815751354f52b9fd7",
+      "baseline_sha256": "5c57ee2de231c810940128ea97765ec8d3e53fbc2c3ce74815751354f52b9fd7"
+    },
+    "cycle_accounting.csv": {
+      "rows": 6144,
+      "byte_identical": false,
+      "different_cells": 3895,
+      "numeric_different_cells": 3895,
+      "max_abs_difference": 1.3322676295501878e-15,
+      "column_maxima": {
+        "informative_cycles_net_A": 1.3322676295501878e-15,
+        "trivial_cycles_net_A": 1.3322676295501878e-15,
+        "last_partial_net_A": 2.220446049250313e-16,
+        "total_A": 2.220446049250313e-16
+      },
+      "upload_sha256": "7203fd9590ef9942432575ac038817bc67f63eef4c7374e2a1478d7cb1e6c28e",
+      "baseline_sha256": "aa9d2c33c1d040aba23d5eeb51bd4729b7170054de09ee4b593bb3e6accaa8e0"
+    },
+    "displacement_groups.csv": {
+      "rows": 384,
+      "byte_identical": false,
+      "different_cells": 124,
+      "numeric_different_cells": 124,
+      "max_abs_difference": 9.166001291305292e-13,
+      "column_maxima": {
+        "max_A_no_c0_c1": 2.220446049250313e-16,
+        "min_A_no_c0_c1": 2.220446049250313e-16,
+        "mean_A": 2.0469737016526324e-16,
+        "min_A": 2.220446049250313e-16,
+        "max_A": 2.220446049250313e-16,
+        "mean_A_no_c0": 2.0469737016526324e-16,
+        "min_A_no_c0": 2.220446049250313e-16,
+        "max_A_no_c0": 2.220446049250313e-16,
+        "mean_A_no_c0_c1": 2.0469737016526324e-16,
+        "mean_E": 2.0469737016526324e-16,
+        "min_E": 2.220446049250313e-16,
+        "max_E": 2.220446049250313e-16,
+        "mean_error_lattice_levels": 8.446576771348191e-13,
+        "min_error_lattice_levels": 9.166001291305292e-13,
+        "max_error_lattice_levels": 9.166001291305292e-13
+      },
+      "upload_sha256": "91d8883658bd1eaa31dcfff9dca289a9afa21c8dae074b28126a95781f1a4a94",
+      "baseline_sha256": "184a33f519554de302832ab9407a0cd6e57dcda0adaec56fdce643a19c03996f"
+    },
+    "displacement_marks.csv": {
+      "rows": 24576,
+      "byte_identical": false,
+      "different_cells": 1651,
+      "numeric_different_cells": 1651,
+      "max_abs_difference": 9.166001291305292e-13,
+      "column_maxima": {
+        "E": 2.220446049250313e-16,
+        "A": 2.220446049250313e-16,
+        "A_no_c0": 2.220446049250313e-16,
+        "A_no_c0_c1": 2.220446049250313e-16,
+        "error_lattice_levels": 9.166001291305292e-13
+      },
+      "upload_sha256": "64f1d9af889363d860fb03948391bb8bcaaf14ca3c48e83380810a7a104c7c1a",
+      "baseline_sha256": "c0a9312da67845c8e9db1d02fe0c3ed4045f60c27495649ea634ca0e4402afdb"
+    },
+    "finite_sector_controls.csv": {
+      "rows": 4608,
+      "byte_identical": false,
+      "different_cells": 14409,
+      "numeric_different_cells": 14409,
+      "max_abs_difference": 2.2898349882893854e-16,
+      "column_maxima": {
+        "raw_same_clock_E": 1.5959455978986625e-16,
+        "centered_equal_c0_normalized": 1.5959455978986625e-16,
+        "raw_displacement_A": 2.2898349882893854e-16,
+        "raw_displacement_A_no_c0": 2.2898349882893854e-16,
+        "raw_displacement_A_no_c0_c1": 2.2898349882893854e-16,
+        "normalization_change": 6.938893903907228e-18,
+        "reference_equal_c0_change": 6.938893903907228e-18,
+        "centering_change": 6.776263578034403e-21
+      },
+      "upload_sha256": "e75d3c121dfb5c39450151b63241a42c34b780fa42ec83c6364e0482269cf41f",
+      "baseline_sha256": "875382bf6eda90ca30b43c906c023e8dff31c6b29d673408dbddc265261a9caa"
+    },
+    "finite_sector_groups.csv": {
+      "rows": 72,
+      "byte_identical": false,
+      "different_cells": 840,
+      "numeric_different_cells": 840,
+      "max_abs_difference": 1.1796119636642288e-16,
+      "column_maxima": {
+        "mean_raw_same_clock_E": 1.5070410197548512e-17,
+        "max_raw_same_clock_E": 6.245004513516506e-17,
+        "mean_reference_equal_c0_change": 4.662069341687669e-18,
+        "mean_centered_equal_c0_normalized": 1.5612511283791264e-17,
+        "max_centered_equal_c0_normalized": 1.0061396160665481e-16,
+        "min_raw_same_clock_E": 8.326672684688674e-17,
+        "min_reference_equal_c0_change": 6.938893903907228e-18,
+        "min_centered_equal_c0_normalized": 9.020562075079397e-17,
+        "mean_raw_displacement_A": 1.0516761073109393e-17,
+        "min_raw_displacement_A": 1.0755285551056204e-16,
+        "mean_raw_displacement_A_no_c0": 1.0516761073109393e-17,
+        "min_raw_displacement_A_no_c0": 9.71445146547012e-17,
+        "max_raw_displacement_A_no_c0": 9.71445146547012e-17,
+        "mean_raw_displacement_A_no_c0_c1": 1.0516761073109393e-17,
+        "min_raw_displacement_A_no_c0_c1": 1.1796119636642288e-16,
+        "max_raw_displacement_A_no_c0_c1": 9.71445146547012e-17,
+        "min_normalization_change": 6.938893903907228e-18,
+        "max_raw_displacement_A": 9.71445146547012e-17,
+        "mean_normalization_change": 7.589415207398531e-19,
+        "mean_centering_change": 4.235164736271502e-22,
+        "min_centering_change": 1.6940658945086007e-21,
+        "max_normalization_change": 6.938893903907228e-18,
+        "max_reference_equal_c0_change": 6.938893903907228e-18,
+        "max_centering_change": 4.235164736271502e-22
+      },
+      "upload_sha256": "cce7d2b4ded76e4ef8c775ada31626b1339d42057deba1af207b255b86342f89",
+      "baseline_sha256": "3c5d6e0402de02cf02854c8069fe31bce77914930b55877361329fedf140827c"
+    },
+    "forecasts_verified.csv": {
+      "rows": 263364,
+      "byte_identical": false,
+      "different_cells": 73354,
+      "numeric_different_cells": 73354,
+      "max_abs_difference": 4.440892098500626e-16,
+      "column_maxima": {
+        "reference_recession_full_cycle": 4.440892098500626e-16,
+        "cycle_net_A": 4.440892098500626e-16,
+        "predicted_plateau_error_gain": 4.440892098500626e-16,
+        "observed_plateau_error_gain": 4.440892098500626e-16
+      },
+      "upload_sha256": "dc1f373c9e693d76222edd0c69d8d28cdb0a163d2bfa9374af81a87d3e825715",
+      "baseline_sha256": "dd005e71d7b0f9a1e23ab57216df9cc5e4bf369c0af9cd532a81e71737681eff"
+    }
+  },
+  "identities": {
+    "A_equals_E_minus_E_initial": 0.0,
+    "A_no_c0_equals_A_minus_mean_change": 0.0,
+    "quantum": 0.0,
+    "lattice_levels": 1.7763568394002505e-15,
+    "pair_A": 0.0,
+    "pair_A_no_c0": 0.0,
+    "pair_A_no_c0_c1": 0.0,
+    "sector_convention_decomposition": 0.0,
+    "cycle_endpoint_vs_mark": 0.0
+  },
+  "group_checks": {
+    "displacement_groups.csv": {
+      "group_count": 384,
+      "checked_aggregates": 8064,
+      "max_abs_recomputation_difference": 1.7763568394002505e-15,
+      "all_counts_exact": true
+    },
+    "aligned_pair_groups.csv": {
+      "group_count": 24,
+      "checked_aggregates": 432,
+      "max_abs_recomputation_difference": 6.938893903907228e-18,
+      "all_counts_exact": true
+    },
+    "finite_sector_groups.csv": {
+      "group_count": 72,
+      "checked_aggregates": 1944,
+      "max_abs_recomputation_difference": 6.938893903907228e-18,
+      "all_counts_exact": true
+    }
+  },
+  "primary": [
+    {
+      "R": 256,
+      "cases": 64,
+      "mean_flat_A": 0.00437456770575332,
+      "mean_corner_A": 0.003339648269847416,
+      "min_pair_A_no_c0": 0.001741592891956023,
+      "all_retard": true,
+      "all_temporal_retard_flag": true
+    },
+    {
+      "R": 512,
+      "cases": 64,
+      "mean_flat_A": 0.0029598438971255234,
+      "mean_corner_A": 0.0025726645260070943,
+      "min_pair_A_no_c0": 0.0014361372081485024,
+      "all_retard": true,
+      "all_temporal_retard_flag": true
+    }
+  ],
+  "bad_boolean_flags": 0,
+  "status": "PASS_UPLOADED_RESULT_RECONCILIATION"
+}

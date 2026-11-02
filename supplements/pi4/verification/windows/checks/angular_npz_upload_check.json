@@ -1,0 +1,15 @@
+{
+  "status": "PASS_UPLOADED_ANGULAR_NPZ",
+  "seal_match": true,
+  "arrays": 4,
+  "profiles": 1152,
+  "bins": 360,
+  "max_group_mean_difference": 0.0,
+  "max_sector_difference": 5.460313191180122e-17,
+  "closures": {
+    "residual_bins_uncentered": 8.077306185017008e-17,
+    "residual_bins_centered": 8.080016690448222e-17,
+    "target_step_change_bins": 4.278532823170922e-17,
+    "full_step_change_bins": 3.724234462487708e-17
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CONDITIONAL_ENDPOINT_MODE3_PREDICTION",
+  "count": 1152,
+  "qualification": {
+    "small_exact_exhaustive_fixtures": 4,
+    "status": "PASS"
+  },
+  "integer_geometry_failures": 0,
+  "remaining_points_failures": 0,
+  "max_a3_absolute_error": 2.362502049652436e-16,
+  "max_upper_c3_absolute_error": 2.1753475726532065e-16,
+  "max_weight_absolute_error": 1.2449485886634193e-12,
+  "max_angular_closure_error": 8.651933336434325e-17,
+  "max_centered_angular_closure_error": 8.651933336434325e-17,
+  "max_target_step_angular_closure_error": 4.160625836913123e-17,
+  "fitted_parameters": 0,
+  "new_independent_trajectory": false,
+  "new_pde_solve": false,
+  "reference_limit": "Saved affine reference shared with prior localization; numerical agreement does not certify PDE accuracy.",
+  "scope": "Conditional exact one-step microscopic geometry from full lower integer polygons. Target lower layers selected retrospectively; does not predict initial-to-target dynamics or crossing time. q_absolute preserves historical contraction fraction of each initial polygon mean support.",
+  "seal": {
+    "predictions_sha256": "33a1ef9f7a9f0a3566a7e8d5fc269ec93c01db7d0ad03a5c6eaaff5649e0c60e",
+    "angular_predictions_sha256": "5376ee924f08525f138d66835e2fdd47c7ebb24f6f09a9d3ee40ada9c59a8736",
+    "inputs_sha256": "b524fc7ca259ecd390da5ab1f7e6b3fa19ace848fbf0ffa4d4eb0ff7ca6914e2",
+    "reference_sha256": "fbfc9914ebda3cf5a9bde5cc9249d861d17c3ccd22b8ebdcc29c33c3e3dec1d0",
+    "predictor_script_sha256": "7911517f763248609e3b1bb4afbdfd616d38cc4d5bf302baec6fa4fb7a48d0aa",
+    "geometry_script_sha256": "0f2a0f302c7df0ea46a0d9a3619d33eff381e535d398772da38bf37d063b3717"
+  },
+  "wall_seconds": 43.192555009998614
+}

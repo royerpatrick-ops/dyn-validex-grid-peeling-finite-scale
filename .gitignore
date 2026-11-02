@@ -9,10 +9,22 @@ manuscript/*.out
 manuscript/*.toc
 manuscript/*.synctex.gz
 manuscript/DYN-Note_Experimentale_Grid_Peeling_v0_1.pdf
+supplements/pi4/manuscript/*.aux
+supplements/pi4/manuscript/*.bbl
+supplements/pi4/manuscript/*.blg
+supplements/pi4/manuscript/*.fdb_latexmk
+supplements/pi4/manuscript/*.fls
+supplements/pi4/manuscript/*.log
+supplements/pi4/manuscript/*.out
+supplements/pi4/manuscript/*.toc
+supplements/pi4/manuscript/*.synctex.gz
 
 # Local verification and rendering work
 tmp/
 verification_recomposee.json
+supplements/pi4/reproducibility/amplitude_replay/
+supplements/pi4/reproducibility/results_replay/
+supplements/pi4/reproducibility/sparse_replay/
 
 # The 210 MB post-collection production archive is a release/Zenodo asset only.
 _prepare_replication_v0_4_20261027.zip

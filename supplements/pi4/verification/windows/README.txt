@@ -1,0 +1,1 @@
+Results supplied by Patrick Royer after Windows replay. The original files are preserved. Checks compare them with delivered frozen inputs/reference calculations. These are numerical reproductions of the same methods and corpus, not independent statistical observations. The Windows amplitude-certificate replay was not supplied. No such validation is claimed.

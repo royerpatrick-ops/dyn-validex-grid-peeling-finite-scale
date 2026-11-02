@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "generated_for": "v0.2",
+  "base_path": "supplements/pi4",
+  "files": [
+    {
+      "path": "manuscript/figure_prediction_pi4.png",
+      "size_bytes": 311267,
+      "sha256": "a53d62165cc8939120eac3afb708a5c87fa76a14cdb69ff074ed206fb20cee87"
+    },
+    {
+      "path": "manuscript/note_pi4.pdf",
+      "size_bytes": 537768,
+      "sha256": "f3ce473a4709f87503a7e115a26eb7d8e710d51a6423a4013296f3124ffbd9f5"
+    },
+    {
+      "path": "manuscript/note_pi4.tex",
+      "size_bytes": 24128,
+      "sha256": "3c38b49fb683a73043e74b1cf60d03987728917e025cec925bb7208f8849f606"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5958,
+      "sha256": "33dd757d1f8fad9874f632e1ad8507ebe85a1468896cc1c5adbe32423d4b61e9"
+    },
+    {
+      "path": "reproducibility/frozen_reference_time.py",
+      "size_bytes": 15434,
+      "sha256": "5b3384e2eb5269489cacddcfbf2a9cbb201ba6c2097995001062ce9df9d6416c"
+    },
+    {
+      "path": "reproducibility/inputs/control_polygons.npz",
+      "size_bytes": 1132337,
+      "sha256": "323a39ff65deb7ce4d45468f1f4d685d9d30c2a40dee4bea232aa50506361297"
+    },
+    {
+      "path": "reproducibility/inputs/endpoint_jump_benchmark.npz",
+      "size_bytes": 102068,
+      "sha256": "02d65b62057ac86eac3d74cd451844129df70c9f15d8b73e9eb2c088e8760cff"
+    },
+    {
+      "path": "reproducibility/inputs/endpoint_jump_inputs.npz",
+      "size_bytes": 951688,
+      "sha256": "b524fc7ca259ecd390da5ab1f7e6b3fa19ace848fbf0ffa4d4eb0ff7ca6914e2"
+    },
+    {
+      "path": "reproducibility/inputs/jump_birth_certificate_strong.npz",
+      "size_bytes": 3699033,
+      "sha256": "ddaf51d8a63fb0e9ab2e19588a541527d13fe60bf6a0926117d41917a9998dd9"
+    },
+    {
+      "path": "reproducibility/inputs/projected_layers.npz",
+      "size_bytes": 4517437,
+      "sha256": "7f692ad33bd085e54486fb253c3e0a683890a648ea0314abd3e1d0e170b736fe"
+    },
+    {
+      "path": "reproducibility/inputs/reference_contraction.npz",
+      "size_bytes": 1536269,
+      "sha256": "fbfc9914ebda3cf5a9bde5cc9249d861d17c3ccd22b8ebdcc29c33c3e3dec1d0"
+    },
+    {
+      "path": "reproducibility/inputs/source_npz_hashes.json",
+      "size_bytes": 10681,
+      "sha256": "4041f623bd5a771eec78b6f2551c42499fa14ed6913c0483620cdcbdd531c711"
+    },
+    {
+      "path": "reproducibility/one_step_prediction.py",
+      "size_bytes": 9512,
+      "sha256": "0f2a0f302c7df0ea46a0d9a3619d33eff381e535d398772da38bf37d063b3717"
+    },
+    {
+      "path": "reproducibility/polygon_localization.py",
+      "size_bytes": 7790,
+      "sha256": "8778cf4079e795129237db77840ca692a74a4e338b9546d92613b56b8cd7d167"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "size_bytes": 2646,
+      "sha256": "5b95208b4ea9e538e60b3f63e143c410ccf239239a660ef9ac63c48e9f673357"
+    },
+    {
+      "path": "reproducibility/requirements.txt",
+      "size_bytes": 44,
+      "sha256": "df1fd43b966007e2fbf8cdc330c80b847e318d04dc0d6dad33c6cb5b0c9a020f"
+    },
+    {
+      "path": "reproducibility/run_amplitude_checks.py",
+      "size_bytes": 4386,
+      "sha256": "efd80dd72702c5dce75b6d4290db0ccd5231d19b4cbd4d9ab203f3399e4515b0"
+    },
+    {
+      "path": "reproducibility/run_mode3_prediction.py",
+      "size_bytes": 10450,
+      "sha256": "7911517f763248609e3b1bb4afbdfd616d38cc4d5bf302baec6fa4fb7a48d0aa"
+    },
+    {
+      "path": "reproducibility/run_sparse_angular_checks.py",
+      "size_bytes": 7138,
+      "sha256": "4b4103defb5e6316c58645a0ca6fcef7bc6449c35c321ad7ba78084336b8e813"
+    },
+    {
+      "path": "reproducibility/spectral_reference_base.py",
+      "size_bytes": 11027,
+      "sha256": "3885b5b034eb8b8545af2acd2adabeb66f6b1132f7c613b77813f5bd9cfc171f"
+    },
+    {
+      "path": "verification/CONTROLE_PDF_FINAL.json",
+      "size_bytes": 2932,
+      "sha256": "efdd7e343baef7edbf6f28e061bb150170fb7de4c1d78b6b57ef6c54c424950d"
+    },
+    {
+      "path": "verification/reference/amplitude_results.json",
+      "size_bytes": 7408,
+      "sha256": "c12968813a56b690dc3023b94048c245e7d5ce144c282cf8681afef8ba6e4aa4"
+    },
+    {
+      "path": "verification/reference/angular16_audit.json",
+      "size_bytes": 1615955,
+      "sha256": "1fde1bbb9348aa9a502add90f85e3c48735a967e02dcd81126a775b9d5858d2a"
+    },
+    {
+      "path": "verification/reference/endpoint_results.json",
+      "size_bytes": 1724,
+      "sha256": "3166b594474b63a613c815de896674bf5f046c895c92d58c4327b7336e25c4e3"
+    },
+    {
+      "path": "verification/reference/independent_jump_prediction_audit.json",
+      "size_bytes": 5435,
+      "sha256": "b8e560af93018f9a8839d72951f11c52a6278cda1fe6437b3a2c5def06d54d65"
+    },
+    {
+      "path": "verification/reference/jump_birth_certificate_strong.json",
+      "size_bytes": 12792,
+      "sha256": "4651f554b5ec17b1a875fb820f4e5c3703b6a805eabfe8800f6030c9e2d70805"
+    },
+    {
+      "path": "verification/windows/checks/angular_npz_upload_check.json",
+      "size_bytes": 436,
+      "sha256": "8bdbdffcbee8e79cc14ee25d4efd4ccb0191a4ec491e90f8101a4dbed85e1f5e"
+    },
+    {
+      "path": "verification/windows/checks/uploaded_displacements_audit.json",
+      "size_bytes": 8220,
+      "sha256": "3b25c8306409045b66c796f0164417dd8429b1cc26613497b5cf3e574574072e"
+    },
+    {
+      "path": "verification/windows/checks/uploaded_endpoint_audit.json",
+      "size_bytes": 6036,
+      "sha256": "4827a587c286e33c827d005e0483d59c2267c4d204c42c6cce5e36d15f09019e"
+    },
+    {
+      "path": "verification/windows/checks/windows_endpoint_audit_independent.json",
+      "size_bytes": 4866,
+      "sha256": "5cbfc093388d55e693c0acb3560452fa10e69223d8cb0b1bcd31e0562101855f"
+    },
+    {
+      "path": "verification/windows/checks/windows_forecast_audit.json",
+      "size_bytes": 2965,
+      "sha256": "d98bfa5913c70c7028af4119ac417dbb774fffe79d9e3dc871a48f0731dea4c8"
+    },
+    {
+      "path": "verification/windows/MANIFEST_SHA256.json",
+      "size_bytes": 2478,
+      "sha256": "b4ee8ef558b4411c14739341a798d3e4d1b750a199779633a913c8a392dd3e09"
+    },
+    {
+      "path": "verification/windows/README.txt",
+      "size_bytes": 361,
+      "sha256": "8fa4d24c8650e1f91d4e3af3f76dc59f0dd8d1b92a5fd56b0d439c4193ec57f1"
+    }
+  ]
+}

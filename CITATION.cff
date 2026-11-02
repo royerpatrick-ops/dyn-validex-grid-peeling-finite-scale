@@ -1,36 +1,40 @@
 cff-version: 1.2.0
-message: "Merci de citer la prépublication ci-dessous. Le compendium associe des contenus CC BY 4.0 et du code MIT ; voir LICENSE."
-title: "Épluchage de réseau et flots de courbure à taille finie : réplication prospective sur 64 translations appariées"
+message: "Merci de citer la prépublication complémentaire ci-dessous. Les textes, figures et données nouvelles sont sous CC BY 4.0 et le code original sous MIT ; voir LICENSE."
+title: "Anisotropie de réseau à taille finie dans l’épluchage convexe : résidus angulaires, certificats de sauts et prévision conditionnelle à un pas"
 type: dataset
 abstract: >-
-  Note expérimentale et compendium de réplication prospective sur 64
-  translations appariées, avec données compactes, code et preuves de contrôle.
+  Note technique et compendium reproductible consacrés aux effets de réseau à
+  taille finie dans l’épluchage convexe. Le complément réunit des contrôles de
+  symétrie, une localisation angulaire signée, un certificat suffisant de saut
+  unitaire et des prévisions conditionnelles exactes à un pas. Il n’établit ni
+  loi macroscopique autonome, ni exposant universel, ni résultat asymptotique.
 authors:
   - family-names: Royer
     given-names: Patrick
-version: "0.1"
-date-released: 2026-10-28
-doi: 10.5281/zenodo.23728565
+version: "0.2"
+date-released: 2026-11-02
+doi: 10.5281/zenodo.23886806
 url: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale"
 repository-code: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale"
-repository-artifact: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale/releases/tag/v0.1"
+repository-artifact: "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale/releases/tag/v0.2"
 license: CC-BY-4.0
 keywords:
   - grid peeling
+  - lattice anisotropy
   - convex layers
   - affine curve-shortening flow
-  - curvature flow
-  - lattice geometry
+  - support function
+  - Fourier modes
   - finite-size effects
-  - paired translations
-  - numerical replication
+  - conditional prediction
+  - reproducible research
 preferred-citation:
   type: generic
   authors:
     - family-names: Royer
       given-names: Patrick
-  title: "Épluchage de réseau et flots de courbure à taille finie : réplication prospective sur 64 translations appariées"
+  title: "Anisotropie de réseau à taille finie dans l’épluchage convexe : résidus angulaires, certificats de sauts et prévision conditionnelle à un pas"
   year: 2026
-  version: "0.1"
-  doi: 10.5281/zenodo.23728565
-  url: "https://doi.org/10.5281/zenodo.23728565"
+  version: "0.2"
+  doi: 10.5281/zenodo.23886806
+  url: "https://doi.org/10.5281/zenodo.23886806"

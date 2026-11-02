@@ -32,3 +32,18 @@ Python 3.10+, NumPy et SciPy sont requis.
 ## Interdiction de nouvelle campagne
 
 La présente publication n'autorise ni nouveau tirage, ni nouvel épluchage, ni recalcul d'oracle ou d'EDP, ni extension de rayons ou de formes. Une nouvelle question scientifique nécessiterait un nouveau protocole.
+
+## Complément π/4 — replays légers de v0.2
+
+Le dossier `supplements/pi4/reproducibility/` regroupe les scripts portables et les données compactes minimales extraites sans modification de l'archive scientifique `DYN-Sauts_Mode3_Pi4_Prediction_Conditionnelle_v0_1.zip`.
+
+```powershell
+cd supplements/pi4/reproducibility
+python run_amplitude_checks.py --output amplitude_replay
+python run_mode3_prediction.py --output results_replay
+python run_sparse_angular_checks.py --output sparse_replay
+```
+
+Les deux premières commandes recomposent respectivement les certificats d'amplitude et les 1 152 prévisions conditionnelles. La troisième reproduit le diagnostic d'insuffisance des seize directions observées ; elle ne constitue pas une prévision. Les sorties doivent être écrites dans de nouveaux dossiers.
+
+Ces opérations utilisent seulement des trajectoires et références sauvegardées. Elles ne lancent aucun nouveau tirage, peeling en trajectoire, calcul de référence EDP ni ajustement. Le replay Windows des certificats d'amplitude n'a pas été reçu ; cette limite n'affecte ni la preuve ni les calculs de référence distribués.

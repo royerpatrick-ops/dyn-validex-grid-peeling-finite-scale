@@ -1,0 +1,121 @@
+{
+  "status": "PASS_UPLOADED_CONDITIONAL_PREDICTION_CHECKS",
+  "count": 1152,
+  "uploaded_predictions_sha256_valid": true,
+  "json_seals_identical": true,
+  "fixed_input_and_script_hashes_valid": {
+    "inputs_sha256": true,
+    "reference_sha256": true,
+    "predictor_script_sha256": true,
+    "geometry_script_sha256": true
+  },
+  "comparison": {
+    "endpoint_predictions.csv": {
+      "rows": 1152,
+      "numeric_differing_cells": 23863,
+      "non_numeric_differences": [],
+      "max_abs_difference": 8.298917109073045e-13,
+      "column_maxima": {
+        "lower_c1_real": 1.0131869301877039e-16,
+        "lower_c1_imag": 4.3212232837125386e-17,
+        "predicted_upper_c1_real": 1.2782743613604097e-16,
+        "predicted_upper_c1_imag": 6.135906669910152e-17,
+        "predicted_target_c1_real": 1.2336865470169434e-16,
+        "predicted_target_c1_imag": 6.938893903907228e-17,
+        "predicted_upper_c3_real": 1.214306433183765e-16,
+        "predicted_upper_c3_imag": 1.1218781979793757e-16,
+        "predicted_a3_real": 1.1796119636642288e-16,
+        "predicted_a3_imag": 1.2182874880358602e-16,
+        "predicted_residual_real": 1.1796119636642288e-16,
+        "predicted_residual_imag": 1.2182874880358602e-16,
+        "predicted_delta_c3_real": 2.0122792321330962e-16,
+        "predicted_delta_c3_imag": 2.0919680918107808e-16,
+        "predicted_full_step_delta_a3_real": 2.3245294578089215e-16,
+        "predicted_full_step_delta_a3_imag": 2.203505390305227e-16,
+        "predicted_target_step_delta_a3_real": 1.5265566588595902e-16,
+        "predicted_target_step_delta_a3_imag": 1.6622852183276193e-16,
+        "residual_angular_closure_error": 4.6891743959998067e-17,
+        "centered_residual_angular_closure_error": 4.6891743959998067e-17,
+        "target_step_angular_closure_error": 2.2090619264392153e-17,
+        "c0_lower": 2.220446049250313e-16,
+        "predicted_c0_upper": 2.220446049250313e-16,
+        "predicted_minkowski_weight": 8.298917109073045e-13,
+        "predicted_delta_c0": 2.220446049250313e-16
+      }
+    },
+    "endpoint_validation.csv": {
+      "rows": 1152,
+      "numeric_differing_cells": 2678,
+      "non_numeric_differences": [],
+      "max_abs_difference": 8.298917109073045e-13,
+      "column_maxima": {
+        "a3_absolute_error": 9.027162255005748e-17,
+        "upper_c3_absolute_error": 1.0195142035721967e-16,
+        "weight_absolute_error": 8.298917109073045e-13
+      }
+    }
+  },
+  "benchmark_checks": {
+    "integer_geometry_failures": 0,
+    "surviving_point_count_failures": 0,
+    "a3_error": 2.1589855502161948e-16,
+    "upper_c3_error": 2.1661259337741916e-16,
+    "weight_error": 1.2200240817605845e-12,
+    "validation_a3_recomputation_difference": 1.232595164407831e-32,
+    "validation_c3_recomputation_difference": 2.465190328815662e-32,
+    "validation_weight_recomputation_difference": 0.0,
+    "interpolation_weight_formula_error": 0.0,
+    "a3_interpolation_formula_error": 1.0164395367051604e-20,
+    "normalized_increment_formula_error": 6.749161925460152e-18,
+    "target_increment_formula_error": 1.3552527156068805e-20,
+    "residual_formula_error": 0.0
+  },
+  "json_differences": [
+    {
+      "path": "/wall_seconds",
+      "upload": 14.426044400000137,
+      "reference": 43.192555009998614
+    },
+    {
+      "path": "/max_upper_c3_absolute_error",
+      "upload": 2.1661259337741916e-16,
+      "reference": 2.1753475726532065e-16
+    },
+    {
+      "path": "/max_weight_absolute_error",
+      "upload": 1.2200240817605845e-12,
+      "reference": 1.2449485886634193e-12
+    },
+    {
+      "path": "/seal/predictions_sha256",
+      "upload": "8a6e1d85c25799b1859eed78412a9f45242f032631791500b832494803c5ae69",
+      "reference": "33a1ef9f7a9f0a3566a7e8d5fc269ec93c01db7d0ad03a5c6eaaff5649e0c60e"
+    },
+    {
+      "path": "/seal/angular_predictions_sha256",
+      "upload": "0e6ffe660a7a8b3fbffdfe714c6d48471b0c66b8a226557fe6c97d5cb7d51d8e",
+      "reference": "5376ee924f08525f138d66835e2fdd47c7ebb24f6f09a9d3ee40ada9c59a8736"
+    },
+    {
+      "path": "/max_a3_absolute_error",
+      "upload": 2.1589855502161948e-16,
+      "reference": 2.362502049652436e-16
+    },
+    {
+      "path": "/max_target_step_angular_closure_error",
+      "upload": 4.278532823170922e-17,
+      "reference": 4.160625836913123e-17
+    },
+    {
+      "path": "/max_angular_closure_error",
+      "upload": 8.077306185017008e-17,
+      "reference": 8.651933336434325e-17
+    },
+    {
+      "path": "/max_centered_angular_closure_error",
+      "upload": 8.080016690448222e-17,
+      "reference": 8.651933336434325e-17
+    }
+  ],
+  "scope_limit": "Uploaded angular_predictions.npz absent: its reported hash cannot be directly checked; recorded closure errors and grouped CSV can be reconciled, not independent full per-case bin arrays. No amplitude replay outputs in this seven-file upload."
+}

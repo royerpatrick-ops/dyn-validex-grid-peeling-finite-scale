@@ -1,0 +1,47 @@
+{
+  "schema_note": "Instantané public des métadonnées finales ; ce fichier n’est pas une requête API automatique.",
+  "record_id": 23886806,
+  "doi": "10.5281/zenodo.23886806",
+  "concept_doi": "10.5281/zenodo.23728564",
+  "record_url": "https://zenodo.org/records/23886806",
+  "title": "Anisotropie de réseau à taille finie dans l’épluchage convexe : résidus angulaires, certificats de sauts et prévision conditionnelle à un pas",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Note technique / prépublication complémentaire à la version historique 0.1. Cette réanalyse rétrospective de l’épluchage convexe documente 18 trajectoires supplémentaires de contrôle des symétries, la localisation angulaire signée du mode 3, un certificat suffisant de saut unitaire avec abstentions explicites et 1152 prévisions conditionnelles exactes à un pas à partir des polygones complets courants. Les sorties proches de l’arrondi machine mesurent la reproduction des calculs sauvegardés, non une précision physique ou une certification de l’EDP commune. Le résultat n’établit ni loi macroscopique autonome, ni temps d’atteinte, ni exposant universel, ni nouvelle valeur de pi, ni preuve asymptotique générale, ni validation physique de la Dynagénèse. La nouveauté bibliographique du certificat n’a pas été établie exhaustivement. Note, figures et données nouvelles : CC BY 4.0. Code original de Patrick Royer : MIT. Voir LICENSE dans le paquet source pour la portée par type de contenu. Une relecture spécialisée est sollicitée ; aucune expertise humaine externe n’est déclarée acquise.",
+  "creators": [
+    {
+      "name": "Royer, Patrick"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "fra",
+  "version": "0.2",
+  "publication_date": "2026-11-02",
+  "keywords": [
+    "grid peeling",
+    "lattice anisotropy",
+    "convex layers",
+    "affine curve-shortening flow",
+    "curvature flow",
+    "lattice geometry",
+    "support function",
+    "Fourier coefficients",
+    "Fourier modes",
+    "finite-size effects",
+    "paired translations",
+    "numerical replication",
+    "conditional prediction",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale/releases/tag/v0.2",
+      "relation": "isSupplementedBy",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ],
+  "repository_url": "https://github.com/royerpatrick-ops/dyn-validex-grid-peeling-finite-scale",
+  "initial_version_doi": "10.5281/zenodo.23728565"
+}
